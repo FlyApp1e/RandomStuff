@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<ObjectNames>
+    <Object
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="r3m1_CaravanTown_1"
+        FullName="Торговый караван"/>
+
+    <Object
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="CaravanTown_Bar"
+        FullName="Кабина"/>
+
+    <Object
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="CaravanTown_Shop"
+        FullName="Кузов"/>
+
+    <Object
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="CaravanTown_Bar_Barman"
+        FullName="Караванщик Патрик"/>
+
+    <Object
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="r3m1_CaravanTown_2"
+        FullName="Торговый караван"/>
+
+    <Object
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="CaravanTown_2_Bar"
+        FullName="Кабина"/>
+
+    <Object
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="CaravanTown_2_Shop"
+        FullName="Кузов"/>
+
+    <Object
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="CaravanTown_2_Bar_Barman"
+        FullName="Караванщик Миттер"/>
+
+    <Object
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="r3m1_CaravanTown_3"
+        FullName="Торговый караван"/>
+
+    <Object
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="CaravanTown_3_Bar"
+        FullName="Кабина"/>
+
+    <Object
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="CaravanTown_3_Shop"
+        FullName="Кузов"/>
+
+    <Object
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="CaravanTown_3_Bar_Barman"
+        FullName="Караванщик Ланс"/>
+</ObjectNames>

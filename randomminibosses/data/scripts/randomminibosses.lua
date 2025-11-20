@@ -1,0 +1,1 @@
+RANDOMMINIBOSSES = true

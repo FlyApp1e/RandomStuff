@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<ResourceTypes>
+    <Type
+        _Action="Add"
+        _ParentXPath="Type[@Name='VEHICLE_PART']/Type[@Name='CHASSIS']"
+        _SelectorKeys="Name"
+        Name="SML1PLAYER_CHASSIS"/>
+
+    <Type
+        _Action="Add"
+        _ParentXPath="Type[@Name='VEHICLE_PART']/Type[@Name='CABIN']"
+        _SelectorKeys="Name"
+        Name="SML1PLAYER_CABIN"/>
+
+    <Type
+        _Action="Add"
+        _ParentXPath="Type[@Name='VEHICLE_PART']/Type[@Name='BASKET']"
+        _SelectorKeys="Name"
+        Name="SML1PLAYER_BASKET"/>
+</ResourceTypes>

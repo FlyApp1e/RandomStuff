@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<icons>
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="light_cabin"
+        file="data\if\ico\InventoryDlg\Opacity1.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="armored_cabin"
+        file="data\if\ico\InventoryDlg\Opacity1.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="modifyengine_cabin"
+        file="data\if\ico\InventoryDlg\Opacity1.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="modifyarmor_cabin"
+        file="data\if\ico\InventoryDlg\Opacity1.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="modifyarmor_basket"
+        file="data\if\ico\InventoryDlg\Opacity1.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="hyper_rapid_gun"
+        file="data\if\ico\InventoryDlg\Opacity1.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="devastating_gun"
+        file="data\if\ico\InventoryDlg\Opacity1.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="with_extra_long_barrel_gun"
+        file="data\if\ico\InventoryDlg\Opacity1.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="with_computer_sight_gun"
+        file="data\if\ico\InventoryDlg\Opacity1.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="with_zero_cooling_gun"
+        file="data\if\ico\InventoryDlg\Opacity1.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="ar_gun"
+        file="data\if\ico\InventoryDlg\Opacity1.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="scientists_gun"
+        file="data\if\ico\InventoryDlg\Opacity1.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="sng_gun"
+        file="data\if\ico\InventoryDlg\Opacity1.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="brig_gun"
+        file="data\if\ico\InventoryDlg\Opacity1.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="druid_gun"
+        file="data\if\ico\InventoryDlg\Opacity1.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="crazy_gun"
+        file="data\if\ico\InventoryDlg\Opacity1.dds"
+        file1=""/>
+</icons>

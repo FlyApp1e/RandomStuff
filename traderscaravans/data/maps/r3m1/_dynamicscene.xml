@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<DynamicScene>
+    <Object
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="r3m1_CaravanTown_1"
+        Belong="1004"
+        Prototype="r3m1_CaravanTown"
+        Pos="0.000 0.000 0.000"
+        Rot="0.000 0.999 0.000 -0.046"
+        MaxDefenders="0"
+        PointOfViewInInterface="50.000 50.000 50.000"
+        CaravansDest="">
+        <Object
+            Flags="21"
+            Name="CaravanTown_enter"
+            Belong="1004"
+            Prototype="genericLocation"
+            Pos="0.000 0.000 0.000"
+            Rot="0.000 0.999 0.000 -0.046"
+            Radius="10.0"/>
+
+        <Object
+            Name="CaravanTown_Bar"
+            Belong="1004"
+            Prototype="bar">
+            <Object
+                Name="CaravanTown_Bar_Barman"
+                Belong="1004"
+                Prototype="NPC"
+                ModelName="r1_man"
+                skin="3"
+                cfg="44"
+                NpcType="BARMAN"
+                SpokenCount="0"/>
+        </Object>
+
+        <Object
+            Name="CaravanTown_Shop"
+            Belong="1004"
+            Prototype="shop">
+            <GunsAndGadgets>
+                <Item
+                    PosX="1"
+                    PosY="0"
+                    Prototype="additional_durability2"/>
+
+                <Item
+                    PosX="1"
+                    PosY="1"
+                    Prototype="cooling_system_guns_and_firing_rate_guns"/>
+            </GunsAndGadgets>
+        </Object>
+
+        <Parts>
+            <AttackTeam
+                present="no"/>
+        </Parts>
+
+        <EntryPath/>
+
+        <ExitPath/>
+    </Object>
+
+    <Object
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="r3m1_CaravanTown_2"
+        Belong="1004"
+        Prototype="r3m1_CaravanTown"
+        Pos="0.000 0.000 0.000"
+        Rot="0.000 0.999 0.000 -0.046"
+        MaxDefenders="0"
+        PointOfViewInInterface="50.000 50.000 50.000"
+        CaravansDest="">
+        <Object
+            Flags="21"
+            Name="CaravanTown_2_enter"
+            Belong="1004"
+            Prototype="genericLocation"
+            Pos="0.000 0.000 0.000"
+            Rot="0.000 0.999 0.000 -0.046"
+            Radius="10.0"/>
+
+        <Object
+            Name="CaravanTown_2_Bar"
+            Belong="1004"
+            Prototype="bar">
+            <Object
+                Name="CaravanTown_2_Bar_Barman"
+                Belong="1004"
+                Prototype="NPC"
+                ModelName="r3_man"
+                cfg="1272"
+                NpcType="BARMAN"
+                SpokenCount="0"/>
+        </Object>
+
+        <Object
+            Name="CaravanTown_2_Shop"
+            Belong="1004"
+            Prototype="shop">
+            <GunsAndGadgets>
+                <Item
+                    PosX="1"
+                    PosY="0"
+                    Prototype="additional_durability"/>
+
+                <Item
+                    PosX="1"
+                    PosY="1"
+                    Prototype="grouping_angle_guns2"/>
+            </GunsAndGadgets>
+        </Object>
+
+        <Parts>
+            <AttackTeam
+                present="no"/>
+        </Parts>
+
+        <EntryPath/>
+
+        <ExitPath/>
+    </Object>
+
+    <Object
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="r3m1_CaravanTown_3"
+        Belong="1019"
+        Prototype="r3m1_CaravanTown"
+        Pos="0.000 0.000 0.000"
+        Rot="0.000 0.999 0.000 -0.046"
+        MaxDefenders="0"
+        PointOfViewInInterface="50.000 50.000 50.000"
+        CaravansDest="">
+        <Object
+            Flags="21"
+            Name="CaravanTown_3_enter"
+            Belong="1019"
+            Prototype="genericLocation"
+            Pos="0.000 0.000 0.000"
+            Rot="0.000 0.999 0.000 -0.046"
+            Radius="10.0"/>
+
+        <Object
+            Name="CaravanTown_3_Bar"
+            Belong="1019"
+            Prototype="bar">
+            <Object
+                Name="CaravanTown_3_Bar_Barman"
+                Belong="1019"
+                Prototype="NPC"
+                ModelName="r3_man"
+                skin="2"
+                cfg="2173"
+                NpcType="BARMAN"
+                SpokenCount="0"/>
+        </Object>
+
+        <Object
+            Name="CaravanTown_3_Shop"
+            Belong="1019"
+            Prototype="shop">
+            <GunsAndGadgets>
+                <Item
+                    PosX="1"
+                    PosY="1"
+                    Prototype="cooling_system_energy2"/>
+            </GunsAndGadgets>
+        </Object>
+
+        <Parts>
+            <AttackTeam
+                present="no"/>
+        </Parts>
+
+        <EntryPath/>
+
+        <ExitPath/>
+    </Object>
+
+    <Object
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="Caravan_Hide"
+        Flags="21"
+        Belong="1042"
+        Prototype="genericLocation"
+        Pos="0.000 0.000 0.000"
+        Radius="20.000"/>
+
+    <Object
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="support_01"
+        Flags="21"
+        Belong="1042"
+        Prototype="genericLocation"
+        Pos="3066.730 260.805 1307.333"
+        Radius="20.000"/>
+</DynamicScene>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<Affixes>
+    <AffixGroup
+        _Action="Add"
+        _ParentXPath="ForResource[@Name='CABIN']/Prefixes"
+        _SelectorKeys="Name"
+        Name="speed"
+        order="1">
+        <Affix
+            Name="light_cabin"
+            modifications="MaxDurability -25 -35; MaxSpeed +15 +25; Price -25 -30"/>
+
+        <Affix
+            Name="armored_cabin"
+            modifications="MaxDurability +25 +35; MaxSpeed -20 -25; Price -10 -15"/>
+    </AffixGroup>
+
+    <Suffixes
+        _Action="AddOrReplace"
+        _ParentXPath="ForResource[@Name='CABIN']"
+        _Selector="Suffixes">
+        <AffixGroup
+            Name="modify"
+            order="1">
+            <Affix
+                Name="modifyengine_cabin"
+                modifications="MaxSpeed +25 +35; MaxTorque +25 +35; Price -15 -20; FuelConsumption +50 +60"/>
+
+            <Affix
+                Name="modifyarmor_cabin"
+                modifications="MaxDurability +10 +15; Price -10 -15"/>
+        </AffixGroup>
+    </Suffixes>
+
+    <Suffixes
+        _Action="AddOrReplace"
+        _ParentXPath="ForResource[@Name='BASKET']"
+        _Selector="Suffixes">
+        <AffixGroup
+            Name="modify"
+            order="1">
+            <Affix
+                Name="modifyarmor_basket"
+                modifications="MaxDurability +10 +15; Price -10 -15"/>
+        </AffixGroup>
+    </Suffixes>
+
+    <Affix
+        _Action="Modify"
+        _ParentXPath="ForResource[@Name='GUN']/Prefixes/AffixGroup[@Name='firing_rate']"
+        _SelectorKeys="Name"
+        Name="slow_gun"
+        modifications="FiringRate -5 -7; Price -13 -14"/>
+
+    <Affix
+        _Action="Modify"
+        _ParentXPath="ForResource[@Name='GUN']/Prefixes/AffixGroup[@Name='firing_rate']"
+        _SelectorKeys="Name"
+        Name="assault_gun"
+        modifications="FiringRate +5 +7; Price +20 +21"/>
+
+    <Affix
+        _Action="Modify"
+        _ParentXPath="ForResource[@Name='GUN']/Prefixes/AffixGroup[@Name='firing_rate']"
+        _SelectorKeys="Name"
+        Name="rapid_firing_gun"
+        modifications="FiringRate +10 +15; Price +42 +45"/>
+
+    <Affix
+        _Action="Add"
+        _ParentXPath="ForResource[@Name='GUN']/Prefixes/AffixGroup[@Name='firing_rate']"
+        _SelectorKeys="Name"
+        Name="hyper_rapid_gun"
+        modifications="FiringRate +25 +30; Price +65 +70"/>
+
+    <Affix
+        _Action="Modify"
+        _ParentXPath="ForResource[@Name='GUN']/Prefixes/AffixGroup[@Name='damage']"
+        _SelectorKeys="Name"
+        Name="weak_gun"
+        modifications="Damage -5 -7; Price -13 -14"/>
+
+    <Affix
+        _Action="Modify"
+        _ParentXPath="ForResource[@Name='GUN']/Prefixes/AffixGroup[@Name='damage']"
+        _SelectorKeys="Name"
+        Name="deadly_gun"
+        modifications="Damage +5 +7; Price +20 +21"/>
+
+    <Affix
+        _Action="Modify"
+        _ParentXPath="ForResource[@Name='GUN']/Prefixes/AffixGroup[@Name='damage']"
+        _SelectorKeys="Name"
+        Name="destructive_gun"
+        modifications="Damage +10 +15; Price +42 +45"/>
+
+    <Affix
+        _Action="Add"
+        _ParentXPath="ForResource[@Name='GUN']/Prefixes/AffixGroup[@Name='damage']"
+        _SelectorKeys="Name"
+        Name="devastating_gun"
+        modifications="Damage +25 +30; Price +65 +70"/>
+
+    <Affix
+        _Action="Modify"
+        _ParentXPath="ForResource[@Name='GUN']/Suffixes/AffixGroup[@Name='firing_range']"
+        _SelectorKeys="Name"
+        Name="with_truncated_barrel_gun"
+        modifications="FiringRange -5 -7; Price -13 -14"/>
+
+    <Affix
+        _Action="Modify"
+        _ParentXPath="ForResource[@Name='GUN']/Suffixes/AffixGroup[@Name='firing_range']"
+        _SelectorKeys="Name"
+        Name="with_enlarged_barrel_gun"
+        modifications="FiringRange +5 +7; Price +20 +21"/>
+
+    <Affix
+        _Action="Modify"
+        _ParentXPath="ForResource[@Name='GUN']/Suffixes/AffixGroup[@Name='firing_range']"
+        _SelectorKeys="Name"
+        Name="with_long_barrel_gun"
+        modifications="FiringRange +10 +15; Price +42 +45"/>
+
+    <Affix
+        _Action="Add"
+        _ParentXPath="ForResource[@Name='GUN']/Suffixes/AffixGroup[@Name='firing_range']"
+        _SelectorKeys="Name"
+        Name="with_extra_long_barrel_gun"
+        modifications="FiringRange +35 +45; Price +65 +70"/>
+
+    <Affix
+        _Action="Modify"
+        _ParentXPath="ForResource[@Name='GUN']/Suffixes/AffixGroup[@Name='scope']"
+        _SelectorKeys="Name"
+        Name="without_sight_gun"
+        modifications="Accuracy -5 -7; Price -13 -14"/>
+
+    <Affix
+        _Action="Modify"
+        _ParentXPath="ForResource[@Name='GUN']/Suffixes/AffixGroup[@Name='scope']"
+        _SelectorKeys="Name"
+        Name="with_laser_sight_gun"
+        modifications="Accuracy +5 +7; Price +20 +21"/>
+
+    <Affix
+        _Action="Modify"
+        _ParentXPath="ForResource[@Name='GUN']/Suffixes/AffixGroup[@Name='scope']"
+        _SelectorKeys="Name"
+        Name="with_electric_sight_gun"
+        modifications="Accuracy +10 +15; Price +42 +45"/>
+
+    <Affix
+        _Action="Add"
+        _ParentXPath="ForResource[@Name='GUN']/Suffixes/AffixGroup[@Name='scope']"
+        _SelectorKeys="Name"
+        Name="with_computer_sight_gun"
+        modifications="Accuracy +35 +45; Price +65 +70"/>
+
+    <Affix
+        _Action="Add"
+        _ParentXPath="ForResource[@Name='GUN']/Suffixes/AffixGroup[@Name='cooling_system']"
+        _SelectorKeys="Name"
+        Name="with_zero_cooling_gun"
+        modifications="ReChargingTime -30 -35; Price +65 +70"/>
+
+    <AffixGroup
+        _Action="Add"
+        _ParentXPath="ForResource[@Name='GUN']/Suffixes"
+        _SelectorKeys="Name"
+        Name="faction"
+        order="2">
+        <Affix
+            Name="ar_gun"
+            modifications="MaxDurability +25 +30; Damage +50 +55; Accuracy -25 -30; ReChargingTime +15 +17; FiringRange -15 -27; FiringRate +25 +27; Price +80 +85"/>
+
+        <Affix
+            Name="scientists_gun"
+            modifications="MaxDurability -50 -75; Damage +100 +150; Accuracy -50 -60; ReChargingTime +30 +45; FiringRange -10 -20; FiringRate +25 +30; Price +90 +105"/>
+
+        <Affix
+            Name="sng_gun"
+            modifications="MaxDurability +20 +25; Damage +25 +30; Accuracy +25 +30; ReChargingTime -15 -20; FiringRange -25 -45; FiringRate +80 +90; Price +80 +90"/>
+
+        <Affix
+            Name="brig_gun"
+            modifications="MaxDurability -25 -35; Damage +40 +45; Accuracy +10 +15; ReChargingTime -25 -40; FiringRange +35 +45; FiringRate +20 +25; Price +65 +70"/>
+
+        <Affix
+            Name="druid_gun"
+            modifications="MaxDurability -30 -45; Damage -10 -20; Accuracy +50 +55; ReChargingTime -60 -65; FiringRange +80 +90; FiringRate +200 +210; Price +55 +90"/>
+
+        <Affix
+            Name="crazy_gun"
+            modifications="MaxDurability -75 -80; Damage +200 +250; Accuracy +25 +30; ReChargingTime +100 +120; FiringRange -25 -45; FiringRate -20 -25; Price +115 +140"/>
+    </AffixGroup>
+</Affixes>

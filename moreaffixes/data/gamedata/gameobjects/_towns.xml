@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<Prototypes>
+    <Affix
+        _Action="AddOrReplace"
+        _ParentXPath="Folder[@Name='BigTowns']/Prototype[@Name='cityaffixGenerator']"
+        _Selector="Affix[@AffixName='hyper_rapid_gun']"
+        AffixName="hyper_rapid_gun"/>
+
+    <Affix
+        _Action="AddOrReplace"
+        _ParentXPath="Folder[@Name='BigTowns']/Prototype[@Name='cityaffixGenerator']"
+        _Selector="Affix[@AffixName='devastating_gun']"
+        AffixName="devastating_gun"/>
+
+    <Affix
+        _Action="AddOrReplace"
+        _ParentXPath="Folder[@Name='BigTowns']/Prototype[@Name='cityaffixGenerator']"
+        _Selector="Affix[@AffixName='with_extra_long_barrel_gun']"
+        AffixName="with_extra_long_barrel_gun"/>
+
+    <Affix
+        _Action="AddOrReplace"
+        _ParentXPath="Folder[@Name='BigTowns']/Prototype[@Name='cityaffixGenerator']"
+        _Selector="Affix[@AffixName='with_computer_sight_gun']"
+        AffixName="with_computer_sight_gun"/>
+
+    <Affix
+        _Action="AddOrReplace"
+        _ParentXPath="Folder[@Name='BigTowns']/Prototype[@Name='cityaffixGenerator']"
+        _Selector="Affix[@AffixName='with_zero_cooling_gun']"
+        AffixName="with_zero_cooling_gun"/>
+
+    <Prototype
+        _Action="Add"
+        _ParentXPath="Folder[@Name='BigTowns']"
+        _SelectorKeys="Name"
+        Name="arcityaffixGenerator"
+        Class="AffixGenerator">
+        <Affix
+            AffixName="excellent_gun"/>
+
+        <Affix
+            AffixName="advanced_gun"/>
+
+        <Affix
+            AffixName="rapid_firing_gun"/>
+
+        <Affix
+            AffixName="hyper_rapid_gun"/>
+
+        <Affix
+            AffixName="deadly_gun"/>
+
+        <Affix
+            AffixName="devastating_gun"/>
+
+        <Affix
+            AffixName="with_extra_long_barrel_gun"/>
+
+        <Affix
+            AffixName="with_computer_sight_gun"/>
+
+        <Affix
+            AffixName="with_nitro_cooling_gun"/>
+
+        <Affix
+            AffixName="ar_gun"/>
+    </Prototype>
+
+    <Prototype
+        _Action="Add"
+        _ParentXPath="Folder[@Name='BigTowns']"
+        _SelectorKeys="Name"
+        Name="scientistscityaffixGenerator"
+        Class="AffixGenerator">
+        <Affix
+            AffixName="excellent_gun"/>
+
+        <Affix
+            AffixName="advanced_gun"/>
+
+        <Affix
+            AffixName="hyper_rapid_gun"/>
+
+        <Affix
+            AffixName="destructive_gun"/>
+
+        <Affix
+            AffixName="devastating_gun"/>
+
+        <Affix
+            AffixName="with_long_barrel_gun"/>
+
+        <Affix
+            AffixName="with_electric_sight_gun"/>
+
+        <Affix
+            AffixName="with_nitro_cooling_gun"/>
+
+        <Affix
+            AffixName="with_zero_cooling_gun"/>
+
+        <Affix
+            AffixName="scientists_gun"/>
+    </Prototype>
+
+    <Prototype
+        _Action="Add"
+        _ParentXPath="Folder[@Name='BigTowns']"
+        _SelectorKeys="Name"
+        Name="sngcityaffixGenerator"
+        Class="AffixGenerator">
+        <Affix
+            AffixName="excellent_gun"/>
+
+        <Affix
+            AffixName="advanced_gun"/>
+
+        <Affix
+            AffixName="deadly_gun"/>
+
+        <Affix
+            AffixName="devastating_gun"/>
+
+        <Affix
+            AffixName="with_long_barrel_gun"/>
+
+        <Affix
+            AffixName="with_extra_long_barrel_gun"/>
+
+        <Affix
+            AffixName="with_computer_sight_gun"/>
+
+        <Affix
+            AffixName="with_nitro_cooling_gun"/>
+
+        <Affix
+            AffixName="sng_gun"/>
+    </Prototype>
+
+    <Prototype
+        _Action="Add"
+        _ParentXPath="Folder[@Name='BigTowns']"
+        _SelectorKeys="Name"
+        Name="brigcityaffixGenerator"
+        Class="AffixGenerator">
+        <Affix
+            AffixName="excellent_gun"/>
+
+        <Affix
+            AffixName="hyper_rapid_gun"/>
+
+        <Affix
+            AffixName="devastating_gun"/>
+
+        <Affix
+            AffixName="with_long_barrel_gun"/>
+
+        <Affix
+            AffixName="with_extra_long_barrel_gun"/>
+
+        <Affix
+            AffixName="with_nitro_cooling_gun"/>
+
+        <Affix
+            AffixName="with_zero_cooling_gun"/>
+
+        <Affix
+            AffixName="brig_gun"/>
+    </Prototype>
+
+    <Prototype
+        _Action="Add"
+        _ParentXPath="Folder[@Name='BigTowns']"
+        _SelectorKeys="Name"
+        Name="druidcityaffixGenerator"
+        Class="AffixGenerator">
+        <Affix
+            AffixName="excellent_gun"/>
+
+        <Affix
+            AffixName="advanced_gun"/>
+
+        <Affix
+            AffixName="rapid_firing_gun"/>
+
+        <Affix
+            AffixName="hyper_rapid_gun"/>
+
+        <Affix
+            AffixName="deadly_gun"/>
+
+        <Affix
+            AffixName="with_long_barrel_gun"/>
+
+        <Affix
+            AffixName="with_extra_long_barrel_gun"/>
+
+        <Affix
+            AffixName="with_electric_sight_gun"/>
+
+        <Affix
+            AffixName="with_nitro_cooling_gun"/>
+
+        <Affix
+            AffixName="druid_gun"/>
+    </Prototype>
+
+    <Prototype
+        _Action="Add"
+        _ParentXPath="Folder[@Name='BigTowns']"
+        _SelectorKeys="Name"
+        Name="crazycityaffixGenerator"
+        Class="AffixGenerator">
+        <Affix
+            AffixName="excellent_gun"/>
+
+        <Affix
+            AffixName="advanced_gun"/>
+
+        <Affix
+            AffixName="rapid_firing_gun"/>
+
+        <Affix
+            AffixName="hyper_rapid_gun"/>
+
+        <Affix
+            AffixName="deadly_gun"/>
+
+        <Affix
+            AffixName="destructive_gun"/>
+
+        <Affix
+            AffixName="devastating_gun"/>
+
+        <Affix
+            AffixName="with_long_barrel_gun"/>
+
+        <Affix
+            AffixName="with_extra_long_barrel_gun"/>
+
+        <Affix
+            AffixName="with_electric_sight_gun"/>
+
+        <Affix
+            AffixName="with_computer_sight_gun"/>
+
+        <Affix
+            AffixName="with_nitro_cooling_gun"/>
+
+        <Affix
+            AffixName="with_zero_cooling_gun"/>
+
+        <Affix
+            AffixName="crazy_gun"/>
+    </Prototype>
+
+    <Affix
+        _Action="AddOrReplace"
+        _ParentXPath="Folder[@Name='BigTowns']/Prototype[@Name='towntruxaffixGenerator']"
+        _Selector="Affix[@AffixName='modifyengine_cabin']"
+        AffixName="modifyengine_cabin"/>
+
+    <Affix
+        _Action="AddOrReplace"
+        _ParentXPath="Folder[@Name='BigTowns']/Prototype[@Name='towntruxaffixGenerator']"
+        _Selector="Affix[@AffixName='modifyarmor_cabin']"
+        AffixName="modifyarmor_cabin"/>
+
+    <Affix
+        _Action="AddOrReplace"
+        _ParentXPath="Folder[@Name='BigTowns']/Prototype[@Name='towntruxaffixGenerator']"
+        _Selector="Affix[@AffixName='modifyarmor_basket']"
+        AffixName="modifyarmor_basket"/>
+
+    <Affix
+        _Action="AddOrReplace"
+        _ParentXPath="Folder[@Name='BigTowns']/Prototype[@Name='citytruxaffixGenerator']"
+        _Selector="Affix[@AffixName='modifyengine_cabin']"
+        AffixName="modifyengine_cabin"/>
+
+    <Affix
+        _Action="AddOrReplace"
+        _ParentXPath="Folder[@Name='BigTowns']/Prototype[@Name='citytruxaffixGenerator']"
+        _Selector="Affix[@AffixName='modifyarmor_cabin']"
+        AffixName="modifyarmor_cabin"/>
+
+    <Affix
+        _Action="AddOrReplace"
+        _ParentXPath="Folder[@Name='BigTowns']/Prototype[@Name='citytruxaffixGenerator']"
+        _Selector="Affix[@AffixName='modifyarmor_basket']"
+        AffixName="modifyarmor_basket"/>
+
+    <Affix
+        _Action="AddOrReplace"
+        _ParentXPath="Folder[@Name='BigTowns']/Prototype[@Name='citytruxaffixGenerator']"
+        _Selector="Affix[@AffixName='light_cabin']"
+        AffixName="light_cabin"/>
+
+    <Affix
+        _Action="AddOrReplace"
+        _ParentXPath="Folder[@Name='BigTowns']/Prototype[@Name='citytruxaffixGenerator']"
+        _Selector="Affix[@AffixName='armored_cabin']"
+        AffixName="armored_cabin"/>
+
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='BigTowns']"
+        _SelectorKeys="Name"
+        Name="TownMidgard"
+        GunAffixGenerator="scientistscityaffixGenerator"
+        GunAffixesCount="2"/>
+
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='BigTowns']"
+        _SelectorKeys="Name"
+        Name="TownBaseInRock"
+        GunAffixGenerator="brigcityaffixGenerator"
+        GunAffixesCount="2"/>
+
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='BigTowns']"
+        _SelectorKeys="Name"
+        Name="TownGelvetcia"
+        GunAffixGenerator="sngcityaffixGenerator"/>
+
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='BigTowns']"
+        _SelectorKeys="Name"
+        Name="TownTuzz"
+        GunAffixGenerator="sngcityaffixGenerator"/>
+
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='BigTowns']"
+        _SelectorKeys="Name"
+        Name="TownMarezzia"
+        GunAffixGenerator="arcityaffixGenerator"
+        GunAffixesCount="3"/>
+
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='BigTowns']"
+        _SelectorKeys="Name"
+        Name="TownToskana"
+        GunAffixGenerator="arcityaffixGenerator"
+        GunAffixesCount="2"/>
+
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='BigTowns']"
+        _SelectorKeys="Name"
+        Name="TownZeon"
+        GunAffixGenerator="arcityaffixGenerator"
+        GunAffixesCount="2"/>
+
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='BigTowns']"
+        _SelectorKeys="Name"
+        Name="TownFist"
+        GunAffixGenerator="druidcityaffixGenerator"
+        GunAffixesCount="3"/>
+
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='BigTowns']"
+        _SelectorKeys="Name"
+        Name="TownSet"
+        GunAffixGenerator="druidcityaffixGenerator"
+        GunAffixesCount="2"/>
+
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='BigTowns']"
+        _SelectorKeys="Name"
+        Name="TownKef"
+        GunAffixGenerator="crazycityaffixGenerator"
+        GunAffixesCount="3"/>
+
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='BigTowns']"
+        _SelectorKeys="Name"
+        Name="TownGadad"
+        GunAffixGenerator="crazycityaffixGenerator"
+        GunAffixesCount="3"/>
+
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='BigTowns']"
+        _SelectorKeys="Name"
+        Name="TownKazif"
+        GunAffixGenerator="crazycityaffixGenerator"
+        GunAffixesCount="4"/>
+
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='Villages']"
+        _SelectorKeys="Name"
+        Name="r4_Scientific"
+        GunAffixGenerator="crazycityaffixGenerator"
+        GunAffixesCount="4"/>
+</Prototypes>

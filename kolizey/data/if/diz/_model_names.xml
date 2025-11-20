@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<ModelNames>
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="kolizey_rookie_scout01"
+        locForm="0"
+        value="Гладиатор"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="kolizey_rookie_fighter01"
+        locForm="0"
+        value="Гладиатор"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="kolizey_rookie_fighter02"
+        locForm="0"
+        value="Гладиатор"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="kolizey_rookie_hunter02"
+        locForm="0"
+        value="Гладиатор"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="kolizey_rookie_bug01"
+        locForm="0"
+        value="Гладиатор"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="kolizey_rookie_bug02"
+        locForm="0"
+        value="Гладиатор"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="kolizey_experienced_hunter01"
+        locForm="0"
+        value="Гладиатор"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="kolizey_experienced_molokovoz01"
+        locForm="0"
+        value="Гладиатор"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="kolizey_experienced_ural01"
+        locForm="0"
+        value="Гладиатор"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="kolizey_experienced_fighter01"
+        locForm="0"
+        value="Гладиатор"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="kolizey_experienced_molokovoz02"
+        locForm="0"
+        value="Гладиатор"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="kolizey_veteran_ural01"
+        locForm="0"
+        value="Гладиатор"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="kolizey_veteran_ural02"
+        locForm="0"
+        value="Гладиатор"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="kolizey_veteran_belaz01"
+        locForm="0"
+        value="Гладиатор"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="kolizey_veteran_belaz02"
+        locForm="0"
+        value="Гладиатор"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="kolizey_veteran_ural03"
+        locForm="0"
+        value="Гладиатор"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="kolizey_veteran_cruiser02"
+        locForm="0"
+        value="Гладиатор"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="kolizey_champion_belaz01"
+        locForm="0"
+        value="Гладиатор"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="kolizey_champion_mirotvorec01"
+        locForm="0"
+        value="Гладиатор"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="kolizey_champion_dozer01"
+        locForm="0"
+        value="Гладиатор"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="kolizey_champion_ural01"
+        locForm="0"
+        value="Гладиатор"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="kolizey_champion_belaz02"
+        locForm="0"
+        value="Гладиатор"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="kolizey_champion_cruiser01"
+        locForm="0"
+        value="Гладиатор"/>
+</ModelNames>

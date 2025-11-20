@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<resource>
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="light_cabin"
+        value="Облегченный"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="light_cabin_localizedform_0"
+        value="Облегченный"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="light_cabin_localizedform_1"
+        value="Облегченная"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="armored_cabin"
+        value="Бронированный"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="armored_cabin_localizedform_0"
+        value="Бронированный"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="armored_cabin_localizedform_1"
+        value="Бронированная"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="modifyengine_cabin"
+        value="с улучшенным двигателем"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="modifyengine_cabin_localizedform_0"
+        value="с улучшенным двигателем"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="modifyengine_cabin_localizedform_1"
+        value="с улучшенным двигателем"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="modifyarmor_cabin"
+        value="с дополнительным бронированием"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="modifyarmor_cabin_localizedform_0"
+        value="с дополнительным бронированием"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="modifyarmor_cabin_localizedform_1"
+        value="с дополнительным бронированием"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="modifyarmor_basket"
+        value="с дополнительным бронированием"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="modifyarmor_basket_localizedform_0"
+        value="с дополнительным бронированием"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="modifyarmor_basket_localizedform_1"
+        value="с дополнительным бронированием"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="hyper_rapid_gun"
+        value="Сверхскорострельный"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="hyper_rapid_gun_localizedform_0"
+        value="Сверхскорострельный"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="hyper_rapid_gun_localizedform_1"
+        value="Сверхскорострельная"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="devastating_gun"
+        value="Опустошающий"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="devastating_gun_localizedform_0"
+        value="Опустошающий"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="devastating_gun_localizedform_1"
+        value="Опустошающая"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="with_extra_long_barrel_gun"
+        value="Со сверхдлинным стволом"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="with_extra_long_barrel_gun_localizedform_0"
+        value="Со сверхдлинным стволом"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="with_extra_long_barrel_gun_localizedform_1"
+        value="Со сверхдлинным стволом"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="with_zero_cooling_gun"
+        value="С нулевым охлаждением"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="with_zero_cooling_gun_localizedform_0"
+        value="с нулевым охлаждением"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="with_zero_cooling_gun_localizedform_1"
+        value="с нулевым охлаждением"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="with_computer_sight_gun"
+        value="С компьютерным наведением"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="with_computer_sight_gun_localizedform_0"
+        value="с компьютерным наведением"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="with_computer_sight_gun_localizedform_1"
+        value="с компьютерным наведением"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="ar_gun"
+        value="доработанный в АР"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="ar_gun_localizedform_0"
+        value="доработанный в АР"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="ar_gun_localizedform_1"
+        value="доработанная в АР"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="scientists_gun"
+        value="доработанный учеными"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="scientists_gun_localizedform_0"
+        value="доработанный учеными"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="scientists_gun_localizedform_1"
+        value="доработанная учеными"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="sng_gun"
+        value="доработанный в СНГ"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="sng_gun_localizedform_0"
+        value="доработанный в СНГ"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="sng_gun_localizedform_1"
+        value="доработанная в СНГ"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="brig_gun"
+        value="доработанный Бригадой"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="brig_gun_localizedform_0"
+        value="доработанный Бригадой"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="brig_gun_localizedform_1"
+        value="доработанная Бригадой"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="druid_gun"
+        value="измененный Друидами"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="druid_gun_localizedform_0"
+        value="измененный Друидами"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="druid_gun_localizedform_1"
+        value="измененная Друидами"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="crazy_gun"
+        value="найденный у Безумцев"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="crazy_gun_localizedform_0"
+        value="найденный у Безумцев"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="crazy_gun_localizedform_1"
+        value="найденная у Безумцев"/>
+
+    <string
+        _Action="Modify"
+        _SelectorKeys="id"
+        id="useless_cabin_diz"
+        value=" Накладывается на кабину| Броня -10% -15% | Максимальная скорость -10% -15% | Мощность -10% -15% | Цена -25% -30%"/>
+
+    <string
+        _Action="Modify"
+        _SelectorKeys="id"
+        id="rusty_cabin_diz"
+        value=" Накладывается на кабину| Броня -5% -7% | Максимальная скорость -5% -7% | Мощность -5% -7% | Цена -15% -20%"/>
+
+    <string
+        _Action="Modify"
+        _SelectorKeys="id"
+        id="excellent_cabin_diz"
+        value=" Накладывается на кабину| Броня +5% +7% | Максимальная скорость +5% +7% | Мощность +5% +7% | Цена +15% +20%"/>
+
+    <string
+        _Action="Modify"
+        _SelectorKeys="id"
+        id="advanced_cabin_diz"
+        value=" Накладывается на кабину| Броня +10% +15% | Максимальная скорость +10% +15% | Мощность +10% +15% | Цена +25% +30%"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="light_cabin_diz"
+        value=" Накладывается на кабину| Броня -25% -35% | Максимальная скорость +15% +25% | Цена +25% +30%"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="armored_cabin_diz"
+        value=" Накладывается на кабину| Броня +25% +35% | Максимальная скорость -20% -25% | Цена +10% +15%"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="modifyengine_cabin_diz"
+        value=" Накладывается на кабину| Максимальная скорость +20% +35% | Мощность +25% +35% | Потребление топлива +50% +60% | Цена +15% +20%"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="modifyarmor_cabin_diz"
+        value=" Накладывается на кабину| Броня +10% +15% | Цена +10% +15%"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="modifyarmor_basket_diz"
+        value=" Накладывается на кузов| Броня +10% +15% | Цена +10% +15%"/>
+
+    <string
+        _Action="Modify"
+        _SelectorKeys="id"
+        id="useless_gun_diz"
+        value=" Накладывается на оружие| Прочность -10% -15% | Повреждение -10% -15% | Точность -10% -15% | Цена -25% -30%"/>
+
+    <string
+        _Action="Modify"
+        _SelectorKeys="id"
+        id="rusty_gun_diz"
+        value=" Накладывается на оружие| Прочность -5% -7% | Повреждение -5% -7% | Точность -5% -7% | Цена -10% -15%"/>
+
+    <string
+        _Action="Modify"
+        _SelectorKeys="id"
+        id="excellent_gun_diz"
+        value=" Накладывается на оружие| Прочность +5% +7% | Повреждение +5% +7% | Точность +5% +7% | Цена +10% +15%"/>
+
+    <string
+        _Action="Modify"
+        _SelectorKeys="id"
+        id="advanced_gun_diz"
+        value=" Накладывается на оружие| Прочность +10% +15% | Повреждение +10% +15% | Точность +10% +15% | Цена +25% +30%"/>
+
+    <string
+        _Action="Modify"
+        _SelectorKeys="id"
+        id="slow_gun_diz"
+        value=" Накладывается на оружие| Скорострельность -5% -7% | Цена -13% -14%"/>
+
+    <string
+        _Action="Modify"
+        _SelectorKeys="id"
+        id="assault_gun_diz"
+        value=" Накладывается на оружие| Скорострельность +5% +7% | Цена +20% +21%"/>
+
+    <string
+        _Action="Modify"
+        _SelectorKeys="id"
+        id="rapid_firing_gun_diz"
+        value=" Накладывается на оружие| Скорострельность +10% +15% | Цена +42% +45%"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="hyper_rapid_gun_diz"
+        value=" Накладывается на оружие| Скорострельность +25% +30% | Цена +65% +70%"/>
+
+    <string
+        _Action="Modify"
+        _SelectorKeys="id"
+        id="weak_gun_diz"
+        value=" Накладывается на оружие| Повреждение -5% -7% | Цена -13% -14%"/>
+
+    <string
+        _Action="Modify"
+        _SelectorKeys="id"
+        id="deadly_gun_diz"
+        value=" Накладывается на оружие| Повреждение +5% +7% | Цена +20% +21%"/>
+
+    <string
+        _Action="Modify"
+        _SelectorKeys="id"
+        id="destructive_gun_diz"
+        value=" Накладывается на оружие| Повреждение +10% +15% | Цена +42% +45%"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="devastating_gun_diz"
+        value=" Накладывается на оружие| Повреждение +25% +30% | Цена +65% +70%"/>
+
+    <string
+        _Action="Modify"
+        _SelectorKeys="id"
+        id="with_truncated_barrel_gun_diz"
+        value=" Накладывается на оружие| Дальность стрельбы -5% -7% | Цена -13% -14%"/>
+
+    <string
+        _Action="Modify"
+        _SelectorKeys="id"
+        id="with_enlarged_barrel_gun_diz"
+        value=" Накладывается на оружие| Дальность стрельбы +5% +7% | Цена +20% +21%"/>
+
+    <string
+        _Action="Modify"
+        _SelectorKeys="id"
+        id="with_long_barrel_gun_diz"
+        value=" Накладывается на оружие| Дальность стрельбы +10% +15% | Цена +42% +45%"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="with_extra_long_barrel_gun_diz"
+        value=" Накладывается на оружие| Дальность стрельбы +35% +45% | Цена +65% +70%"/>
+
+    <string
+        _Action="Modify"
+        _SelectorKeys="id"
+        id="without_cooling_gun_diz"
+        value=" Накладывается на оружие| Время перезарядки +5% +7% | Цена -13% -14%"/>
+
+    <string
+        _Action="Modify"
+        _SelectorKeys="id"
+        id="with_water_cooling_gun_diz"
+        value=" Накладывается на оружие| Время перезарядки -5% -7% | Цена +20% +21%"/>
+
+    <string
+        _Action="Modify"
+        _SelectorKeys="id"
+        id="with_nitro_cooling_gun_diz"
+        value=" Накладывается на оружие| Время перезарядки -10% -15% | Цена +42% +45%"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="with_zero_cooling_gun_diz"
+        value=" Накладывается на оружие| Время перезарядки -30% -35% | Цена +65% +70%"/>
+
+    <string
+        _Action="Modify"
+        _SelectorKeys="id"
+        id="without_sight_gun_diz"
+        value=" Накладывается на оружие| Точность -5% -7% | Цена -13% -14%"/>
+
+    <string
+        _Action="Modify"
+        _SelectorKeys="id"
+        id="with_laser_sight_gun_diz"
+        value=" Накладывается на оружие| Точность +5% +7% | Цена +20% +21%"/>
+
+    <string
+        _Action="Modify"
+        _SelectorKeys="id"
+        id="with_electric_sight_gun_diz"
+        value=" Накладывается на оружие| Точность +10% +15% | Цена +42% +45%"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="with_computer_sight_gun_diz"
+        value=" Накладывается на оружие| Точность +35% +45% | Цена +65% +70%"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="ar_gun_diz"
+        value=" Накладывается на оружие| Прочность +25% +30% | Повреждение +50% +55% | Точность -25% -30% | Время перезарядки +15% +17% | Дальность стрельбы -15% -27% | Скорострельность +25% +27% | Цена +80% +85%"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="scientists_gun_diz"
+        value=" Накладывается на оружие| Прочность -50% -75% | Повреждение +100% +150% | Точность -50% -60% | Время перезарядки +30% +45% | Дальность стрельбы -10% -20% | Скорострельность +25% +30% | Цена +90% +105%"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="sng_gun_diz"
+        value=" Накладывается на оружие| Прочность +20% +25% | Повреждение +25% +30% | Точность +25% +30% | Время перезарядки -15% -20% | Дальность стрельбы -25% -45% | Скорострельность +80% +90% | Цена +80% +90%"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="brig_gun_diz"
+        value=" Накладывается на оружие| Прочность -25% -35% | Повреждение +40% +45% | Точность +10% +15% | Время перезарядки -25% -40% | Дальность стрельбы +35% +45% | Скорострельность +20% +25% | Цена +65% +70%"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="druid_gun_diz"
+        value=" Накладывается на оружие| Прочность -30% -45% | Повреждение -10% -20% | Точность +50% +55% | Время перезарядки -60% -65% | Дальность стрельбы +80% +90% | Скорострельность +200% +210% | Цена +55% +90%"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="crazy_gun_diz"
+        value=" Накладывается на оружие| Прочность -75% -80% | Повреждение +200% +250% | Точность +25% +30% | Время перезарядки +100% +120% | Дальность стрельбы -25% -45% | Скорострельность -20% -25% | Цена +115% +140%"/>
+</resource>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<ModelNames>
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="MiniBossKrai_molokovoz01"
+        locForm="0"
+        value="Странник"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="MiniBossKrai_molokovoz02"
+        locForm="0"
+        value="Скиталец"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="MiniBossKrai_bug01"
+        locForm="0"
+        value="Кочевник"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="MiniBossRidzin_molokovoz01"
+        locForm="0"
+        value="Рейдер"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="MiniBossRidzin_ural01"
+        locForm="0"
+        value="Убийцв"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="MiniBossRidzin_cruiser01"
+        locForm="0"
+        value="Захватчик"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="MiniBossRidzin_molokovoz02"
+        locForm="0"
+        value="Бандит"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="MiniBossVaterland_molokovoz01"
+        locForm="0"
+        value="Псих"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="MiniBossVaterland_ural01"
+        locForm="0"
+        value="Снайпер"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="MiniBossVaterland_cruiser01"
+        locForm="0"
+        value="Стрелок"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="MiniBossVaterland_molokovoz02"
+        locForm="0"
+        value="Изгой"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="MiniBossLibrium_dozer01"
+        locForm="0"
+        value="Маньяк"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="MiniBossLibrium_ural01"
+        locForm="0"
+        value="Охотник"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="MiniBossLibrium_ural02"
+        locForm="0"
+        value="Ликвидатор"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="MiniBossLibrium_belaz01"
+        locForm="0"
+        value="Берсерк"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="MiniBossLibrium_cruiser01"
+        locForm="0"
+        value="Палач"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="MiniBossGrove_robot01"
+        locForm="0"
+        value="Захватчик"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="MiniBossGrove_robot02"
+        locForm="0"
+        value="Канонир"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="MiniBossGrove_cruiser01"
+        locForm="0"
+        value="Заражённый"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="MiniBossIgnott_belaz01"
+        locForm="0"
+        value="Каратель"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="MiniBossIgnott_belaz02"
+        locForm="0"
+        value="Отщепенец"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="MiniBossVahat_dozer01"
+        locForm="0"
+        value="Биб"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="MiniBossVahat_dozer02"
+        locForm="0"
+        value="Боб"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="MiniBossVahat_mirotvorec01"
+        locForm="0"
+        value="Султан"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="MiniBossVahat_mirotvorec02"
+        locForm="0"
+        value="Шейх"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="MiniBossVahat_belaz01"
+        locForm="0"
+        value="Буран"/>
+</ModelNames>

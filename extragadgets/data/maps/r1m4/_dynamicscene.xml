@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<DynamicScene>
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheOlme']/Object[@Name='Olme_Shop']/GunsAndGadgets"
+        _SelectorKeys="Prototype"
+        PosX="0"
+        PosY="1"
+        Prototype="extra_damage_machinegun"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheOlme']/Object[@Name='Olme_Shop']/GunsAndGadgets"
+        _SelectorKeys="Prototype"
+        PosX="0"
+        PosY="1"
+        Prototype="extra_durability"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheOlme']/Object[@Name='Olme_Shop']/GunsAndGadgets"
+        _SelectorKeys="Prototype"
+        PosX="0"
+        PosY="1"
+        Prototype="extra_hp"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheOlme']/Object[@Name='Olme_Shop']/GunsAndGadgets"
+        _SelectorKeys="Prototype"
+        PosX="0"
+        PosY="1"
+        Prototype="extra_damage_rocket"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheOlme']/Object[@Name='Olme_Shop']/GunsAndGadgets"
+        _SelectorKeys="Prototype"
+        PosX="0"
+        PosY="1"
+        Prototype="extra_damage_artillery"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheOlme']/Object[@Name='Olme_Shop']/GunsAndGadgets"
+        _SelectorKeys="Prototype"
+        PosX="0"
+        PosY="1"
+        Prototype="extra_combo_rocket"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheOlme']/Object[@Name='Olme_Shop']/GunsAndGadgets"
+        _SelectorKeys="Prototype"
+        PosX="0"
+        PosY="1"
+        Prototype="extra_speed_and_torque"/>
+</DynamicScene>

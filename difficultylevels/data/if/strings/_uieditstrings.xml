@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<resource>
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="RealLevel"
+        value="Реализм"/>
+
+    <string
+        _Action="Add"
+        _SelectorKeys="id"
+        id="RealHardLevel"
+        value="Реализм +"/>
+</resource>

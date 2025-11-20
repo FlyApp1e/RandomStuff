@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<Prototypes>
+    <Folder
+        _Action="Add"
+        _ParentXPath="Folder[@Name='Guns']"
+        _SelectorKeys="Name"
+        Name="WeaponsMiniBoss"
+        File="WeaponsMiniBoss.xml"/>
+
+    <Folder
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="VehiclesMiniBoss"
+        File="VehiclesMiniBoss.xml"/>
+</Prototypes>

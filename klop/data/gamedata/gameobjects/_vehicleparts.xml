@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<Prototypes>
+    <Prototype
+        _Action="Add"
+        _ParentXPath="Folder[@Name='Chassis']"
+        _SelectorKeys="Name"
+        Name="sml1PlayerChassis"
+        Class="Chassis"
+        ModelFile="sml1Chassis"
+        ResourceType="SML1PLAYER_CHASSIS"
+        NodeScale="1 1 1"
+        Mass="50.0"
+        MaxHealth="275"
+        MaxFuel="120"
+        BrakingSound="ET_S_BRAKE01"
+        PneumoSound="ET_S_PNEUMO_BRAKE01"
+        GearShiftSound="ET_S_GEAR_SHIFT01"
+        LoadPoints="LP_CAB01">
+        <GroupsHealth
+            Main="10000"/>
+    </Prototype>
+
+    <Prototype
+        _Action="Add"
+        _ParentXPath="Folder[@Name='Cabins']"
+        _SelectorKeys="Name"
+        Name="sml1PlayerCab01"
+        Class="Cabin"
+        ModelFile="sml1Cab01"
+        ResourceType="SML1PLAYER_CABIN"
+        NodeScale="1 1 1"
+        Durability="20"
+        DurCoeffsForDamageTypes="10 -15 -15"
+        VisibleInEncyclopedia="false"
+        Mass="10.0"
+        MaxPower="50"
+        MaxTorque="50"
+        EngineHighSound="ET_S_ENGINE_SMALL_1_HIGH"
+        Price="500"
+        MaxSpeed="140.0"
+        BlowEffect="ET_PS_VEH_PART_BLOW_SMALL_CAB"
+        LoadPoints="LP_SML01">
+        <GroupsHealth
+            Main="5"
+            Breakable1="1"
+            Breakable2="1"
+            Breakable3="2"
+            Breakable4="5"/>
+
+        <GadgetDescription>
+            <Slot
+                ResourceType="GADGET_COMMON"
+                MaxAmount="3"/>
+
+            <Slot
+                ResourceType="GADGET_WEAPON"
+                MaxAmount="2"/>
+        </GadgetDescription>
+    </Prototype>
+
+    <Prototype
+        _Action="Add"
+        _ParentXPath="Folder[@Name='Baskets']"
+        _SelectorKeys="Name"
+        Name="sml1PlayerCargo"
+        Class="Basket"
+        VisibleInEncyclopedia="false"
+        ModelFile="cub"
+        ResourceType="SML1PLAYER_BASKET"
+        Durability="0"
+        DurCoeffsForDamageTypes="0 0 0"
+        NodeScale="1 1 1"
+        BlowEffect="ET_PS_VEH_PART_BLOW_SMALL_CAB"
+        Price="0"
+        RepairCoef="0"
+        Mass="5.0">
+        <RepositoryDescription
+            RepositorySize="4 5"/>
+    </Prototype>
+</Prototypes>

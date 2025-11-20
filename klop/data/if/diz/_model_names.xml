@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<ModelNames>
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="sml1PlayerCab01"
+        locForm="1"
+        value="Кабина Вездеходного Клопа"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="sml1PlayerCargo"
+        locForm="1"
+        value="Кузов Вездеходного Клопа"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="Sml1ForSale"
+        locForm="1"
+        value="Вездеходный Клоп"/>
+</ModelNames>

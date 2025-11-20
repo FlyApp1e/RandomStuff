@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<DialogsResource>
+    <Reply
+        _Action="Add"
+        _SelectorKeys="name"
+        name="Dlg_kolizey_npc_001302"
+        text="Хочешь сразиться в колизее?"
+        role="NPC"
+        scriptCondition="IsQuestComplete('ReturnToDirector2_Quest')"
+        nextReplies="Dlg_kolizey_pl_001303"/>
+
+    <Reply
+        _Action="Add"
+        _SelectorKeys="name"
+        name="Dlg_kolizey_pl_001303"
+        text="Да, какие есть противники?"
+        role="PLAYER"
+        nextReplies="Dlg_kolizey_npc_001304"/>
+
+    <Reply
+        _Action="Add"
+        _SelectorKeys="name"
+        name="Dlg_kolizey_npc_001304"
+        text="Мы проводим следующие бои.|Битвы с новичками нашей арены. Ставка 1 000 монет. В случае победы получишь в два раза больше, конечно, с вычетом комиссии колизея. |Сражения с опытными бойцами, которые уже не раз побеждали в поединках. Ставка 5 000 монет. Победа принесет тебе 9 000 монет.|Битва с ветеранами колизея. Серьезные бойцы с мощным вооружением. Ставка 50 000 монет. За победу над противником получишь 90 000 монет.|Ну и конечно бои с чемпионами арены. Опытнейшие войны на лучших боевых машинах, увешанные оружием. Ставка 100 000 монет. Такие бои крайне редко проводятся, поэтому в случае победы заработаешь 250 000 монет.|На данный момент тебе доступны следующие поединки:"
+        role="NPC"
+        nextReplies="Dlg_kolizey_pl_001305 Dlg_kolizey_pl_001306 Dlg_kolizey_pl_001307 Dlg_kolizey_pl_001308 Dlg_kolizey_pl_001310"/>
+
+    <Reply
+        _Action="Add"
+        _SelectorKeys="name"
+        name="Dlg_kolizey_pl_001310"
+        text="Я пока передумал сражаться. Зайду позже."
+        role="PLAYER"
+        scriptResult="EndConversation()"/>
+
+    <Reply
+        _Action="Add"
+        _SelectorKeys="name"
+        name="Dlg_kolizey_pl_001308"
+        text="Бой с чемпионом колизея."
+        role="PLAYER"
+        scriptCondition="GetVar('kolizey_champion').AsInt == 0 and  (IsQuestComplete('r3m2_TwoMagicThing_Return'))"
+        nextReplies="Dlg_kolizey_npc_001324"/>
+
+    <Reply
+        _Action="Add"
+        _SelectorKeys="name"
+        name="Dlg_kolizey_npc_001324"
+        text="Чемпионы колизея:|Легенды арены. Их имена знает каждый. Их машины — редкие, мощные, иногда даже уникальные образцы боевой техники: тяжелые броневики, бывшие военные машины или самодельные  монстры с усиленной броней и смертоносным вооружением. Пушки, ракеты, плазма, минометы — их арсенал внушает страх. Опыт, хитрость и беспощадность делают их настоящими королями боя. Схватка с чемпионом — испытание не для слабых духом. Битва длится до полного уничтожения противника или его капитуляции.| Если осмелился — плати и выходи на арену."
+        role="NPC"
+        nextReplies="Dlg_kolizey_pl_001325 Dlg_kolizey_pl_001330"/>
+
+    <Reply
+        _Action="Add"
+        _SelectorKeys="name"
+        name="Dlg_kolizey_pl_001330"
+        text="Кажется у меня недостаточно денег."
+        role="PLAYER"
+        scriptResult="EndConversation()"/>
+
+    <Reply
+        _Action="Add"
+        _SelectorKeys="name"
+        name="Dlg_kolizey_pl_001325"
+        text="Вот моя ставка."
+        role="PLAYER"
+        scriptCondition="GetPlayerMoney() &gt;= 100000"
+        scriptResult="AddPlayerMoney(-100000)"
+        nextReplies="Dlg_kolizey_npc_001326"/>
+
+    <Reply
+        _Action="Add"
+        _SelectorKeys="name"
+        name="Dlg_kolizey_npc_001326"
+        text="Начинаем поединок!"
+        role="NPC"
+        nextReplies="Dlg_kolizey_pl_001327"/>
+
+    <Reply
+        _Action="Add"
+        _SelectorKeys="name"
+        name="Dlg_kolizey_pl_001327"
+        text="В бой!"
+        role="PLAYER"
+        scriptResult="TActivate('cinKolizeyBattle'); TActivate('trBattleChampion'); LeaveTown()"/>
+
+    <Reply
+        _Action="Add"
+        _SelectorKeys="name"
+        name="Dlg_kolizey_pl_001307"
+        text="Бой с ветераном арены."
+        role="PLAYER"
+        scriptCondition="GetVar('kolizey_veteran').AsInt == 0 and  (IsQuestComplete('r3m2_TwoMagicThing_Return'))"
+        nextReplies="Dlg_kolizey_npc_001320"/>
+
+    <Reply
+        _Action="Add"
+        _SelectorKeys="name"
+        name="Dlg_kolizey_npc_001320"
+        text="Ветераны колизея:|Искушенные бойцы, прошедшие десятки сражений. Их машины — настоящие крепости на колесах: тяжелые броневики, переделанные военные грузовики или специально модифицированные авто. Вооружение серьезное — автоматические пушки, ракетные установки, тяжелые пулеметы. Тактика отработана до мелочей, а хладнокровие в бою внушает уважение. Победа над ветераном — повод для гордости. Битва идет до тех пор, пока один из гладиаторов не сможет продолжать бой.| Если готов, оплачивай и следуй на арену."
+        role="NPC"
+        nextReplies="Dlg_kolizey_pl_001321 Dlg_kolizey_pl_001329"/>
+
+    <Reply
+        _Action="Add"
+        _SelectorKeys="name"
+        name="Dlg_kolizey_pl_001329"
+        text="Кажется у меня недостаточно денег."
+        role="PLAYER"
+        scriptResult="EndConversation()"/>
+
+    <Reply
+        _Action="Add"
+        _SelectorKeys="name"
+        name="Dlg_kolizey_pl_001321"
+        text="Вот моя ставка."
+        role="PLAYER"
+        scriptCondition="GetPlayerMoney() &gt;= 50000"
+        scriptResult="AddPlayerMoney(-50000)"
+        nextReplies="Dlg_kolizey_npc_001322"/>
+
+    <Reply
+        _Action="Add"
+        _SelectorKeys="name"
+        name="Dlg_kolizey_npc_001322"
+        text="Начинаем поединок!"
+        role="NPC"
+        nextReplies="Dlg_kolizey_pl_001323"/>
+
+    <Reply
+        _Action="Add"
+        _SelectorKeys="name"
+        name="Dlg_kolizey_pl_001323"
+        text="В бой!"
+        role="PLAYER"
+        scriptResult="TActivate('cinKolizeyBattle'); TActivate('trBattleVeteran'); LeaveTown()"/>
+
+    <Reply
+        _Action="Add"
+        _SelectorKeys="name"
+        name="Dlg_kolizey_pl_001306"
+        text="Бой с опытным водилой."
+        role="PLAYER"
+        scriptCondition="GetVar('kolizey_experienced').AsInt == 0 and (IsQuestComplete('ReturnToDirector2_Quest') or not(IsQuestComplete('r3m2_TwoMagicThing_Return')))"
+        nextReplies="Dlg_kolizey_npc_001316"/>
+
+    <Reply
+        _Action="Add"
+        _SelectorKeys="name"
+        name="Dlg_kolizey_npc_001316"
+        text="Опытные противники:| Хорошие бойцы. Управляют легкими броневиками или небольшими грузовиками. Иногда владеют уникальными экземплярами орудий. Не слишком опасные противники для опытного бойца, но и расслабляться не стоит. Битва проходит до тех пор пока один из гладиаторов не сможет продолжать бой.| Если готов, оплачивай и следуй на арену."
+        role="NPC"
+        nextReplies="Dlg_kolizey_pl_001317 Dlg_kolizey_pl_001328"/>
+
+    <Reply
+        _Action="Add"
+        _SelectorKeys="name"
+        name="Dlg_kolizey_pl_001328"
+        text="Кажется у меня недостаточно денег."
+        role="PLAYER"
+        scriptResult="EndConversation()"/>
+
+    <Reply
+        _Action="Add"
+        _SelectorKeys="name"
+        name="Dlg_kolizey_pl_001317"
+        text="Вот моя ставка."
+        role="PLAYER"
+        scriptCondition="GetPlayerMoney() &gt;= 5000"
+        scriptResult="AddPlayerMoney(-5000)"
+        nextReplies="Dlg_kolizey_npc_001318"/>
+
+    <Reply
+        _Action="Add"
+        _SelectorKeys="name"
+        name="Dlg_kolizey_npc_001318"
+        text="Начинаем поединок!"
+        role="NPC"
+        nextReplies="Dlg_kolizey_pl_001319"/>
+
+    <Reply
+        _Action="Add"
+        _SelectorKeys="name"
+        name="Dlg_kolizey_pl_001319"
+        text="В бой!"
+        role="PLAYER"
+        scriptResult="TActivate('cinKolizeyBattle'); TActivate('trBattleExperienced'); LeaveTown()"/>
+
+    <Reply
+        _Action="Add"
+        _SelectorKeys="name"
+        name="Dlg_kolizey_pl_001305"
+        text="Бой с новичком."
+        role="PLAYER"
+        scriptCondition="GetVar('kolizey_rookie').AsInt == 0 and (IsQuestComplete('Buyer_Quest1') or not(IsQuestComplete('r3m2_TwoMagicThing_Return')))"
+        nextReplies="Dlg_kolizey_npc_001311"/>
+
+    <Reply
+        _Action="Add"
+        _SelectorKeys="name"
+        name="Dlg_kolizey_npc_001311"
+        text="Противнки новички:| Впервые в нашем колизее. Слабобронированная машина, чаще легковая, иногда небольшой грузовичок. Из оружия, в основном, легкие пулеметы, реже дообовики. Опыта сражений практически нет. Но такова политика Колизея. Учавствовать в битвах может любой желающий. Сражения проводятся регулярно, поскольку желающих попробовать свои силы огромное количество. Битва проходит до тех пор пока один из гладиаторов не сможет продолжать бой.| Если готов, оплачивай и следуй на арену."
+        role="NPC"
+        nextReplies="Dlg_kolizey_pl_001312 Dlg_kolizey_pl_001313"/>
+
+    <Reply
+        _Action="Add"
+        _SelectorKeys="name"
+        name="Dlg_kolizey_pl_001313"
+        text="Кажется у меня недостаточно денег."
+        role="PLAYER"
+        scriptResult="EndConversation()"/>
+
+    <Reply
+        _Action="Add"
+        _SelectorKeys="name"
+        name="Dlg_kolizey_pl_001312"
+        text="Вот моя ставка."
+        role="PLAYER"
+        scriptCondition="GetPlayerMoney() &gt;= 1000"
+        scriptResult="AddPlayerMoney(-1000)"
+        nextReplies="Dlg_kolizey_npc_001314"/>
+
+    <Reply
+        _Action="Add"
+        _SelectorKeys="name"
+        name="Dlg_kolizey_npc_001314"
+        text="Начинаем поединок!"
+        role="NPC"
+        nextReplies="Dlg_kolizey_pl_001315"/>
+
+    <Reply
+        _Action="Add"
+        _SelectorKeys="name"
+        name="Dlg_kolizey_pl_001315"
+        text="В бой!"
+        role="PLAYER"
+        scriptResult="TActivate('cinKolizeyBattle'); TActivate('trBattleRookie'); LeaveTown()"/>
+</DialogsResource>

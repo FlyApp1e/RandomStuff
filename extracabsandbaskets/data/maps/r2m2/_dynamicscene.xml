@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<DynamicScene>
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Marezzia']/Object[@Name='Marezzia_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="uralCargo03Extra"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Marezzia']/Object[@Name='Marezzia_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="belazCargo04Extra"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Zeon']/Object[@Name='Zeon_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="belazCargo04Extra"/>
+</DynamicScene>

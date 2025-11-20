@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<DynamicScene>
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheOlme']/Object[@Name='Olme_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="bugCab03Extra"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheOlme']/Object[@Name='Olme_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="molokovozCargo03Extra"/>
+</DynamicScene>

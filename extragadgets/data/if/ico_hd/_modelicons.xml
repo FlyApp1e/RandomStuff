@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<icons>
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="extra_durability"
+        file="data\if\ico_hd\InventoryDlg\Gadgets\sml_gadget1_v2.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="extra_speed_and_torque"
+        file="data\if\ico_hd\InventoryDlg\Gadgets\sml_gadget3.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="extra_fuel_tank"
+        file="data\if\ico_hd\InventoryDlg\Gadgets\sml_gadget2_v2.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="extra_hp"
+        file="data\if\ico_hd\InventoryDlg\Gadgets\sml_gadget4.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="extra_hp2"
+        file="data\if\ico_hd\InventoryDlg\Gadgets\sml_gadget4_v2.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="extra_damage_machinegun"
+        file="data\if\ico_hd\InventoryDlg\Gadgets\gadget4_v2_bul.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="extra_damage_cannon"
+        file="data\if\ico_hd\InventoryDlg\Gadgets\gadget4_v2_bul.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="extra_damage_shotgun"
+        file="data\if\ico_hd\InventoryDlg\Gadgets\gadget4_v2_bul.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="extra_damage_laser"
+        file="data\if\ico_hd\InventoryDlg\Gadgets\gadget4_v2_enrg.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="extra_damage_plasma"
+        file="data\if\ico_hd\InventoryDlg\Gadgets\gadget4_v2_enrg.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="extra_damage_rocket"
+        file="data\if\ico_hd\InventoryDlg\Gadgets\gadget4_v2_exp.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="extra_damage_artillery"
+        file="data\if\ico_hd\InventoryDlg\Gadgets\gadget4_v2_exp.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="extra_combo_machinegun"
+        file="data\if\ico_hd\InventoryDlg\Gadgets\gadget6_bul.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="extra_combo_cannon"
+        file="data\if\ico_hd\InventoryDlg\Gadgets\gadget6_bul.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="extra_combo_shotgun"
+        file="data\if\ico_hd\InventoryDlg\Gadgets\gadget6_bul.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="extra_combo_laser"
+        file="data\if\ico_hd\InventoryDlg\Gadgets\gadget6_enrg.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="extra_combo_plasma"
+        file="data\if\ico_hd\InventoryDlg\Gadgets\gadget6_enrg.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="extra_combo_rocket"
+        file="data\if\ico_hd\InventoryDlg\Gadgets\gadget6_exp.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="extra_combo_artillery"
+        file="data\if\ico_hd\InventoryDlg\Gadgets\gadget6_exp.dds"
+        file1=""/>
+</icons>

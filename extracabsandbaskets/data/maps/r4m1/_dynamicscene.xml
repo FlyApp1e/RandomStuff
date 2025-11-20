@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<DynamicScene>
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheGadad']/Object[@Name='Gadad_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="belazCab05Extra"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheGadad']/Object[@Name='Gadad_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="belazCargo04Extra"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheGadad']/Object[@Name='Gadad_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="uralCargo03Extra"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheGadad']/Object[@Name='Gadad_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="mirotvorecCab03Extra"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheKef']/Object[@Name='Kef_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="belazCab05Extra"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheKef']/Object[@Name='Kef_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="uralCargo03Extra"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheKef']/Object[@Name='Kef_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="mirotvorecCargo05Extra"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheKazif']/Object[@Name='Kazif_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="belazCab05Extra"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheKazif']/Object[@Name='Kazif_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="belazCargo04Extra"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheKazif']/Object[@Name='Kazif_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="uralCargo03Extra"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheKazif']/Object[@Name='Kazif_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="mirotvorecCargo05Extra"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheKazif']/Object[@Name='Kazif_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="mirotvorecCab03Extra"/>
+</DynamicScene>

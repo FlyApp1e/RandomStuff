@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<triggers>
+    <trigger
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="KolizeyVar"
+        active="1">
+        <event timeout="0.1" eventid="GE_TIME_PERIOD"/>
+
+        <script>
+            SetVar("kolizey_rookie",0)
+            SetVar("kolizey_experienced",0)
+            SetVar("kolizey_veteran",0)
+            SetVar("kolizey_champion",0)
+            SetVar("kolizey_allvsall",0)
+
+            trigger:Deactivate()
+        </script>
+    </trigger>
+</triggers>

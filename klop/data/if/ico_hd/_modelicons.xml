@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<icons>
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="sml1PlayerCab01"
+        file="data\if\ico\InventoryDlg\smlPlayer\sml1PlayerCab01.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="sml1PlayerCargo"
+        file="data\if\ico\InventoryDlg\smlPlayer\sml1PlayerCargo.dds"
+        file1=""/>
+</icons>

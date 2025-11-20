@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<triggers>
+    <trigger
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="trSpawnMiniBoss"
+        active="1">
+        <event timeout="1650" eventid="GE_TIME_PERIOD"/>
+
+        <script>
+
+                        if not GetEntityByName("Boss") then
+                            local RandModel = { "MiniBossKrai_molokovoz01",
+                                            "MiniBossKrai_molokovoz02",
+                                            "MiniBossKrai_bug01"
+                            }
+
+                            local StartCoord = CVector(2499.621, 325.265, 1686.081)
+
+                            local Belong = 1002
+
+                            local r = random(3)
+                            local model = RandModel[r]
+
+                            TeamCreateWithWarez("Boss", Belong, StartCoord, {model}, nil, 0)
+
+
+                            local WayPoints = { 
+                                CVector(1971.073, 327.746, 1596.632),
+                                CVector(2746.749, 344.870, 1305.361),
+                                CVector(1923.944, 321.580, 2451.212),
+                                StartCoord 
+                            }
+
+                            local tt = GetEntityByName("Boss")
+                            if tt then
+                                local items = {"oil", "scrap_metal", "fuel", "oil",}
+                                local items_count = table.getn(items)
+                                local selected_item = items[random(1, items_count)]
+                                GetEntityByName("Boss_vehicle_0"):AddItemsToRepository(selected_item, 3)
+                                if EXTRAGADGETS ~= nil and EXTRAGADGETS == true then
+                                    local ValuableExtraItems = {"extra_fuel_tank","cooling_system_guns","cooling_system_explosion","add_damage_guns","machinery","fuel","firing_range_guns","add_damage_energy","grouping_angle_guns","vulcan01","maxim01","bumblebee01"}
+                                    local ValuableExtraItemsCount = table.getn(ValuableExtraItems)
+                                    local SelectedValuableExtraItems = ValuableExtraItems[random(1,ValuableExtraItemsCount)]
+                                    GetEntityByName("Boss_vehicle_0"):AddItemsToRepository(SelectedValuableExtraItems, 1)
+                                else
+                                    local ValuableItems = {"cooling_system_guns","cooling_system_explosion","add_damage_guns","machinery","fuel","firing_range_guns","add_damage_energy","grouping_angle_guns","vulcan01","maxim01","bumblebee01"}
+                                    local ValuableItemsCount = table.getn(ValuableItems)
+                                    local SelectedValuableItems = ValuableItems[random(1,ValuableItemsCount)]
+                                    GetEntityByName("Boss_vehicle_0"):AddItemsToRepository(SelectedValuableItems, 1)
+                                end
+                                tt:StackOpen()
+                                for i, point in ipairs(WayPoints) do
+                                    tt:SetDestination(point)
+                                end
+                                tt:StackLoop()
+                                tt:StackClose()
+                            end
+                        end
+        </script>
+    </trigger>
+</triggers>

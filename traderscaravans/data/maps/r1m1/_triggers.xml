@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<triggers>
+    <trigger
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="CARAVAN_TOWN_TRUCK"
+        active="1">
+        <event timeout="5.1" eventid="GE_TIME_PERIOD"/>
+
+        <script>
+            TeamCreateWithWarez("KARAVANTOWN", 1003, CVector(getPos("TheTown_deploy") ), {"r1m1_CaravanTruckMolokovoz01"}, nil, 1)
+
+            local t = GetEntityByName("KARAVANTOWN")
+            if t then
+                t:StackOpen()
+                t:SetDestination( CVector(getPos("LisaRolik_loc") ))
+                t:SetDestination( CVector(getPos("TheOilVillage_deploy") ))
+                t:SetDestination( CVector(getPos("TheContraVillage_enter") ))
+                t:SetDestination( CVector(getPos("TheFreedomQ") ))
+                t:SetDestination( CVector(getPos("TheOilVillage_deploy") ))
+                t:SetDestination( CVector(getPos("TheTown_deploy") ))
+                t:StackLoop()
+                t:StackClose()
+            end
+            TActivate( "CARAVAN_TOWN_TRUCK_DIE" )
+            TActivate( "CARAVAN_TOWN_1" )
+            trigger:Deactivate()
+        </script>
+    </trigger>
+
+    <trigger
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="CARAVAN_TOWN_TRUCK_DIE"
+        active="0">
+        <event eventid="GE_OBJECT_DIE" ObjName="KARAVANTOWN_vehicle_0"/>
+
+        <script>
+            TDeactivate( "CARAVAN_TOWN_1" )
+            TDeactivate( "CARAVAN_TOWN_2" )
+            TActivate( "CARAVAN_TOWN_HIDE" )
+            TActivate( "CARAVAN_TOWN_TRUCK_WAIT" )
+            trigger:Deactivate()
+        </script>
+    </trigger>
+
+    <trigger
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="CARAVAN_TOWN_1"
+        active="0">
+        <event timeout="1.5" eventid="GE_TIME_PERIOD"/>
+
+        <script>
+            local caravanpos = getObj("KARAVANTOWN_vehicle_0"):GetPosition() 
+            getObj("CaravanTown_enter"):SetPosition(CVector(caravanpos))
+            TActivate( "CARAVAN_TOWN_2" )
+            trigger:Deactivate()
+        </script>
+    </trigger>
+
+    <trigger
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="CARAVAN_TOWN_2"
+        active="0">
+        <event timeout="1.5" eventid="GE_TIME_PERIOD"/>
+
+        <script>
+            local caravanpos = getObj("KARAVANTOWN_vehicle_0"):GetPosition() 
+            getObj("CaravanTown_enter"):SetPosition(CVector(caravanpos)) 
+            TActivate( "CARAVAN_TOWN_1" )
+            trigger:Deactivate()
+        </script>
+    </trigger>
+
+    <trigger
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="CARAVAN_TOWN_HIDE"
+        active="0">
+        <event timeout="0.1" eventid="GE_TIME_PERIOD"/>
+
+        <script>
+            local caravanpos = getObj("Caravan_Hide"):GetPosition() 
+            getObj("CaravanTown_enter"):SetPosition(CVector(caravanpos)) 
+            trigger:Deactivate()
+        </script>
+    </trigger>
+
+    <trigger
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="CARAVAN_TOWN_TRUCK_WAIT"
+        active="0">
+        <event timeout="60.0" eventid="GE_TIME_PERIOD"/>
+
+        <script>
+            TActivate( "CARAVAN_TOWN_TRUCK" )
+            trigger:Deactivate()
+        </script>
+    </trigger>
+</triggers>

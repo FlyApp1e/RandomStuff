@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<Properties>
+    <Level
+        _Action="Add"
+        _ParentXPath="DifficultyLevels"
+        _SelectorKeys="Name"
+        Name="RealLevel"
+        EnemyWeaponCoeff="1.0"
+        EnemyShootingDelay="0.1"/>
+
+    <Level
+        _Action="Add"
+        _ParentXPath="DifficultyLevels"
+        _SelectorKeys="Name"
+        Name="RealHardLevel"
+        EnemyWeaponCoeff="1.5"
+        EnemyShootingDelay="0.1"/>
+</Properties>

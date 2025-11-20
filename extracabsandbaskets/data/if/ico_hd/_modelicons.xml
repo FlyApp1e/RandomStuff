@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<icons>
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="bugCab03Extra"
+        file="data\if\ico_hd\InventoryDlg\bug\Bug_Cab03Extra.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="bugCargo03Extra"
+        file="data\if\ico_hd\InventoryDlg\bug\Bug_Body03Extra.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="molokovozCargo03Extra"
+        file="data\if\ico_hd\InventoryDlg\molokovoz\Molokovoz_Body03Extra.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="uralCargo03Extra"
+        file="data\if\ico_hd\InventoryDlg\ural\Ural_Cargo03Extra.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="belazCab05Extra"
+        file="data\if\ico_hd\InventoryDlg\belaz\belazCab05Extra.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="belazCargo04Extra"
+        file="data\if\ico_hd\InventoryDlg\belaz\belazCargo04Extra.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="mirotvorecCab03Extra"
+        file="data\if\ico_hd\InventoryDlg\mirotvorec\mirotvorecCab03Extra.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="mirotvorecCargo05Extra"
+        file="data\if\ico_hd\InventoryDlg\mirotvorec\mirotvorecCargo05Extra.dds"
+        file1=""/>
+</icons>

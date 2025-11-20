@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<ModelNames>
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="molokovozCargo03Extra"
+        locForm="0"
+        value="Бокс (прод.)"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="belazCab05Extra"
+        locForm="0"
+        value="Щит (прод.)"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="belazCargo04Extra"
+        locForm="0"
+        value="Гром (прод.)"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="bugCab03Extra"
+        locForm="0"
+        value="Скорпион (прод.)"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="bugCargo03Extra"
+        locForm="0"
+        value="Борг (прод.)"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="uralCargo03Extra"
+        locForm="0"
+        value="Крейсер (прод.)"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="mirotvorecCab03Extra"
+        locForm="0"
+        value="Метеор (прод.)"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="mirotvorecCargo05Extra"
+        locForm="0"
+        value="Экскалибур (прод.)"/>
+</ModelNames>

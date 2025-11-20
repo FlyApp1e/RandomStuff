@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<ModelNames>
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="extra_durability"
+        locForm="0"
+        value="Композитные бронелисты с керамическим слоем"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="extra_speed_and_torque"
+        locForm="0"
+        value="Двойной контур впрыска"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="extra_fuel_tank"
+        locForm="0"
+        value="Дополнительный топливный бак"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="extra_hp"
+        locForm="0"
+        value="Усиленная рамная конструкция"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="extra_hp2"
+        locForm="0"
+        value="Защита критических узлов"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="extra_damage_machinegun"
+        locForm="0"
+        value="Ротационный ускоритель подачи"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="extra_damage_cannon"
+        locForm="0"
+        value="Усиленный нарезной ствол"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="extra_damage_shotgun"
+        locForm="0"
+        value="Расширенная дробовая камера"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="extra_damage_laser"
+        locForm="0"
+        value="Стабилизатор энергозаряда"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="extra_damage_plasma"
+        locForm="0"
+        value="Термостойкий излучатель"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="extra_damage_rocket"
+        locForm="0"
+        value="Твердотопливный ускоритель"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="extra_damage_artillery"
+        locForm="0"
+        value="Утяжелённые боевые заряды"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="extra_combo_machinegun"
+        locForm="0"
+        value="Система &quot;Тайфун&quot;"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="extra_combo_cannon"
+        locForm="0"
+        value="Система &quot;Громовержец&quot;"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="extra_combo_shotgun"
+        locForm="0"
+        value="Система &quot;Шквал&quot;"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="extra_combo_laser"
+        locForm="0"
+        value="Система &quot;Квантум&quot;"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="extra_combo_plasma"
+        locForm="0"
+        value="Система &quot;Прометей&quot;"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="extra_combo_rocket"
+        locForm="0"
+        value="Система &quot;Армагеддон&quot;"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="extra_combo_artillery"
+        locForm="0"
+        value="Система &quot;Цербер&quot;"/>
+</ModelNames>

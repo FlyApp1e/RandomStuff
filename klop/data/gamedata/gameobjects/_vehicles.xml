@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<Prototypes>
+    <Prototype
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="SmlPlayer"
+        Class="Vehicle"
+        ResourceType="VEHICLE"
+        DiffRatio="6.0"
+        MaxEngineRpm="7000"
+        LowGearShiftLimit="1000"
+        HighGearShiftLimit="2000"
+        SteeringSpeed="1.0"
+        AdditionalWheelsHover="0.4"
+        HornSound="ET_S_HORN01"
+        DecisionMatrix="vehiclemain.lua"
+        LookRadius="200.0"
+        IntersectionRadius="2.5"
+        TakingRadius="30.0"
+        DriftCoeff="0.1"
+        MassSize="3 2 6"
+        MassTranslation="0 -0.4 -0.6"
+        DestroyEffectPiercing="ET_PS_VEH_EXP1_SMALL"
+        DestroyEffectBlast="ET_PS_VEH_EXP2_SMALL"
+        DestroyEffectEnergy="ET_PS_VEH_EXP3_SMALL"
+        DestroyEffectWater="ET_PS_VEH_EXP2_SMALL"
+        Abstract="true">
+        <MainPartDescription
+            id="CHASSIS"
+            partResourceType="SML1PLAYER_CHASSIS">
+            <PartDescription
+                id="CABIN"
+                partResourceType="SML1PLAYER_CABIN"
+                lpName="LP_CAB01">
+                <PartDescription
+                    id="CABIN_SMALL_GUN"
+                    partResourceType="SMALL_GUN"
+                    lpName="LP_SML01"/>
+            </PartDescription>
+
+            <PartDescription
+                id="BASKET"
+                partResourceType="SML1PLAYER_BASKET"
+                lpName="LP_CAB01"/>
+        </MainPartDescription>
+
+        <Parts>
+            <Part
+                id="CHASSIS"
+                Prototype="sml1PlayerChassis"/>
+        </Parts>
+
+        <Wheels>
+            <Wheel Prototype="scoutWheel01" steering="correct"/>
+
+            <Wheel Prototype="scoutWheel01" steering="correct"/>
+
+            <Wheel Prototype="scoutWheel01"/>
+
+            <Wheel Prototype="scoutWheel01"/>
+        </Wheels>
+    </Prototype>
+
+    <Prototype
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="Sml1ForSale"
+        Class="Vehicle"
+        ParentPrototype="SmlPlayer"
+        VisibleInEncyclopedia="false">
+        <Parts>
+            <Part
+                id="CABIN"
+                Prototype="sml1PlayerCab01"/>
+
+            <Part
+                id="BASKET"
+                Prototype="sml1PlayerCargo"/>
+        </Parts>
+    </Prototype>
+</Prototypes>

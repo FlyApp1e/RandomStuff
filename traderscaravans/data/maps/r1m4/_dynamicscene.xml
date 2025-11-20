@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<DynamicScene>
+    <Object
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="Caravan_Hide"
+        Flags="21"
+        Belong="1042"
+        Prototype="genericLocation"
+        Pos="0.000 0.000 0.000"
+        Radius="20.000"/>
+
+    <Object
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="support01"
+        Flags="21"
+        Belong="1011"
+        Prototype="genericLocation"
+        Pos="2943.488 249.138 1787.202"
+        Radius="53.832"
+        LookingTimeOut="20.000"/>
+
+    <Object
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="r1m4_CaravanTown"
+        Belong="1003"
+        Prototype="r1m4_CaravanTown"
+        Pos="0.000 0.000 0.000"
+        Rot="0.000 0.999 0.000 -0.046"
+        MaxDefenders="0"
+        PointOfViewInInterface="50.000 50.000 50.000"
+        CaravansDest="">
+        <Object
+            Flags="21"
+            Name="CaravanTown_enter"
+            Belong="1003"
+            Prototype="genericLocation"
+            Pos="0.000 0.000 0.000"
+            Rot="0.000 0.999 0.000 -0.046"
+            Radius="10.0"/>
+
+        <Object
+            Name="CaravanTown_Bar"
+            Belong="1003"
+            Prototype="bar">
+            <Object
+                Name="CaravanTown_Bar_Barman"
+                Belong="1003"
+                Prototype="NPC"
+                ModelName="r1_man"
+                cfg="92"
+                NpcType="BARMAN"
+                SpokenCount="0"/>
+        </Object>
+
+        <Object
+            Name="CaravanTown_Shop"
+            Belong="1003"
+            Prototype="shop">
+            <GunsAndGadgets>
+                <Item
+                    PosX="1"
+                    PosY="1"
+                    Prototype="add_damage_energy"/>
+            </GunsAndGadgets>
+        </Object>
+
+        <Parts>
+            <AttackTeam
+                present="no"/>
+        </Parts>
+
+        <EntryPath/>
+
+        <ExitPath/>
+    </Object>
+</DynamicScene>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<DynamicScene>
+    <Object
+        _Action="Add"
+        _ParentXPath="Object[@Name='TheTickets']/Object[@Name='TheTickets_ZAO']"
+        _SelectorKeys="Name"
+        Name="Manager"
+        Belong="1009"
+        Prototype="NPC"
+        ModelName="r1_man"
+        skin="1"
+        cfg="116"
+        helloReplyNames="Dlg_kolizey_npc_001302"
+        SpokenCount="0"/>
+</DynamicScene>

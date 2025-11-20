@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<DynamicScene>
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Pesht']/Object[@Name='Pesht_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="bugCargo03Extra"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Pesht']/Object[@Name='Pesht_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="bugCab03Extra"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Pesht']/Object[@Name='Pesht_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="2"
+        Prototype="molokovozCargo03"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Minin']/Object[@Name='Minin_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="bugCargo03Extra"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Minin']/Object[@Name='Minin_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="bugCab03Extra"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Minin']/Object[@Name='Minin_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="molokovozCargo03Extra"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Minin']/Object[@Name='Minin_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="uralCargo03Extra"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Minin']/Object[@Name='Minin_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="belazCab05Extra"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Minin']/Object[@Name='Minin_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="belazCargo04Extra"/>
+</DynamicScene>

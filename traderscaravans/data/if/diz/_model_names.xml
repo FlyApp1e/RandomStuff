@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<ModelNames>
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="r1m1_CaravanTruckMolokovoz01"
+        locForm="0"
+        value="Макс"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="r1m2_CaravanTruckUral01"
+        locForm="0"
+        value="Лэндо"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="r1m2_CaravanTruckUral02"
+        locForm="0"
+        value="Грим"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="r1m3_CaravanTruckMolokovoz01"
+        locForm="0"
+        value="Карвил"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="r1m3_CaravanTruckUral01"
+        locForm="0"
+        value="Пастер"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="r1m4_CaravanTruckUral01"
+        locForm="0"
+        value="Микаэл"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="r2m1_CaravanTruckBelaz01"
+        locForm="0"
+        value="Варяг"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="r2m1_CaravanTruckBelaz02"
+        locForm="0"
+        value="Минас"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="r2m1_CaravanTruckUral01"
+        locForm="0"
+        value="Герхард"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="r2m2_CaravanTruckUral01"
+        locForm="0"
+        value="Мидаль"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="r2m2_CaravanTruckUral02"
+        locForm="0"
+        value="Торнвуд"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="r2m2_CaravanTruckCruiser01"
+        locForm="0"
+        value="Кольмант"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="r3m1_CaravanTruckCruiser01"
+        locForm="0"
+        value="Патрик"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="r3m1_CaravanTruckUral01"
+        locForm="0"
+        value="Миттер"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="r3m1_CaravanTruckUral02"
+        locForm="0"
+        value="Ланс"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="r4m1_CaravanTruckBelaz01"
+        locForm="0"
+        value="Фарух"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="r4m1_CaravanTruckBelaz02"
+        locForm="0"
+        value="Алладин"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="r4m1_CaravanTruckDozer01"
+        locForm="0"
+        value="Муллбар"/>
+</ModelNames>

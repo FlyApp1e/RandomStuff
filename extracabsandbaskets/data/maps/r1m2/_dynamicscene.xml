@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<DynamicScene>
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Esting']/Object[@Name='Esting_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="bugCargo03Extra"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Esting']/Object[@Name='Esting_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="bugCab03Extra"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Midragd']/Object[@Name='Midragd_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="bugCargo03Extra"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Midragd']/Object[@Name='Midragd_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="molokovozCargo03Extra"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Midragd']/Object[@Name='Midragd_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="belazCab05Extra"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Midragd']/Object[@Name='Midragd_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="belazCargo04Extra"/>
+</DynamicScene>

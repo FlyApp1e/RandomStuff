@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<DynamicScene>
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Asgard']/Object[@Name='Asgard_Shop']/GunsAndGadgets"
+        _SelectorKeys="Prototype"
+        PosX="0"
+        PosY="1"
+        Prototype="extra_hp"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Asgard']/Object[@Name='Asgard_Shop']/GunsAndGadgets"
+        _SelectorKeys="Prototype"
+        PosX="0"
+        PosY="1"
+        Prototype="extra_durability"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Asgard']/Object[@Name='Asgard_Shop']/GunsAndGadgets"
+        _SelectorKeys="Prototype"
+        PosX="0"
+        PosY="1"
+        Prototype="extra_speed_and_torque"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Pesht']/Object[@Name='Pesht_Shop']/GunsAndGadgets"
+        _SelectorKeys="Prototype"
+        PosX="0"
+        PosY="1"
+        Prototype="extra_speed_and_torque"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Pesht']/Object[@Name='Pesht_Shop']/GunsAndGadgets"
+        _SelectorKeys="Prototype"
+        PosX="0"
+        PosY="1"
+        Prototype="extra_hp"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Pesht']/Object[@Name='Pesht_Shop']/GunsAndGadgets"
+        _SelectorKeys="Prototype"
+        PosX="0"
+        PosY="1"
+        Prototype="extra_fuel_tank"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Pesht']/Object[@Name='Pesht_Shop']/GunsAndGadgets"
+        _SelectorKeys="Prototype"
+        PosX="0"
+        PosY="1"
+        Prototype="extra_damage_plasma"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Minin']/Object[@Name='Minin_Shop']/GunsAndGadgets"
+        _SelectorKeys="Prototype"
+        PosX="0"
+        PosY="1"
+        Prototype="extra_fuel_tank"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Minin']/Object[@Name='Minin_Shop']/GunsAndGadgets"
+        _SelectorKeys="Prototype"
+        PosX="0"
+        PosY="1"
+        Prototype="extra_damage_laser"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Minin']/Object[@Name='Minin_Shop']/GunsAndGadgets"
+        _SelectorKeys="Prototype"
+        PosX="0"
+        PosY="1"
+        Prototype="extra_damage_rocket"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Minin']/Object[@Name='Minin_Shop']/GunsAndGadgets"
+        _SelectorKeys="Prototype"
+        PosX="0"
+        PosY="1"
+        Prototype="extra_damage_artillery"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Minin']/Object[@Name='Minin_Shop']/GunsAndGadgets"
+        _SelectorKeys="Prototype"
+        PosX="0"
+        PosY="1"
+        Prototype="extra_hp"/>
+</DynamicScene>

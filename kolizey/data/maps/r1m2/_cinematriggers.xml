@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<triggers>
+    <trigger
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="cinKolizeyBattle"
+        active="0">
+        <event timeout="0" eventid="GE_TIME_PERIOD"/>
+
+        <script>
+            SaveAllToleranceStatus(RS_NEUTRAL)
+            CreateNewDummyObject( "dweller_white", "Orator", -1, -1, CVector(7282.624, 227.500, 3264.708), Quaternion( 0.002, 0.468, -0.002, -0.884 ), 3)
+
+            PlayCustomMusic("IntenseDialogue03")
+
+            Fly("Kol2_cam02", CINEMATIC_NO_AIM, 0, 6, 0, 0 )
+            StartCinematic()
+            AddCinematicMessage( 222, 1 )
+
+            TActivate("cinKolizeyBattleEnd")
+
+            trigger:Deactivate()
+
+        </script>
+    </trigger>
+
+    <trigger
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="cinKolizeyBattleEnd"
+        active="0">
+        <event eventid="GE_END_CINEMATIC" ObjName="Player1"/>
+
+        <event eventid="GE_SKIP_CINEMATIC" ObjName="Player1"/>
+
+        <script>
+            GameFiltersUse()
+
+            RestoreAllToleranceStatus()
+
+            CreateNewDummyObject( "rotund", "ZABOR", -1, -1, CVector(7084, 155, 3942), Quaternion(0.0037,0.9063,0.0079,0.4226), 0)
+
+            local obj01 = GetEntityByName("Orator")
+            if obj01 then
+                obj01:Remove()
+            end
+
+
+            StopPlayingCustomMusic()
+
+            SetCameraBehindPlayerVehicle()
+
+            trigger:Deactivate()
+        </script>
+    </trigger>
+
+    <trigger
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="trBattleRookie"
+        active="0">
+        <event timeout="0" eventid="GE_TIME_PERIOD"/>
+
+        <script>
+            GetPlayerVehicle():SetPosition(CVector(7122.449, 171.645, 3736.613))
+            GetPlayerVehicle():SetRotation(Quaternion(-0.001, 0.998, 0.010, -0.068))
+            SetVar("kolizey_rookie",1)
+
+            local rookieCars = {"kolizey_rookie_scout01","kolizey_rookie_fighter01","kolizey_rookie_fighter02","kolizey_rookie_hunter02","kolizey_rookie_bug01","kolizey_rookie_bug02"}
+            local randRookie = rookieCars[random(getn(rookieCars))]
+
+            TeamCreate("GladiatorTeam",1002,CVector(7227.516, 186.947, 3578.640),{randRookie},CVector(7092.917, 159.738, 3896.481))
+            local gl = GetEntityByName("GladiatorTeam_vehicle_0")
+            if gl then
+                gl:setImmortalMode(1)
+            end 
+            local var = GetVar("kolizey_rookie").AsInt
+            println(var)
+
+            TActivate("trGladiatorDie")
+            trigger:Deactivate()
+        </script>
+    </trigger>
+
+    <trigger
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="trRookieTimer"
+        active="0">
+        <event timeout="420" eventid="GE_TIME_PERIOD"/>
+
+        <script>
+            SetVar("kolizey_rookie",0)
+            trigger:Deactivate()
+        </script>
+    </trigger>
+
+    <trigger
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="trBattleExperienced"
+        active="0">
+        <event timeout="0" eventid="GE_TIME_PERIOD"/>
+
+        <script>
+            GetPlayerVehicle():SetPosition(CVector(7122.449, 171.645, 3736.613))
+            GetPlayerVehicle():SetRotation(Quaternion(-0.001, 0.998, 0.010, -0.068))
+            local experiencedCars = {"kolizey_experienced_hunter01","kolizey_experienced_molokovoz01","kolizey_experienced_ural01","kolizey_experienced_fighter01","kolizey_experienced_molokovoz02"}
+            local randExperienced = experiencedCars[random(getn(experiencedCars))]
+            SetVar("kolizey_experienced",1)
+            TeamCreate("GladiatorTeam",1002,CVector(7227.516, 186.947, 3578.640),{randExperienced},CVector(7092.917, 159.738, 3896.481))
+            local gl = GetEntityByName("GladiatorTeam_vehicle_0")
+            if gl then
+                gl:setImmortalMode(1)
+            end 
+            local var = GetVar("kolizey_experienced").AsInt
+            println(var)
+
+            TActivate("trGladiatorDie")
+            trigger:Deactivate()
+        </script>
+    </trigger>
+
+    <trigger
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="trExperiencedTimer"
+        active="0">
+        <event timeout="800" eventid="GE_TIME_PERIOD"/>
+
+        <script>
+            SetVar("kolizey_experienced",0)
+            trigger:Deactivate()
+        </script>
+    </trigger>
+
+    <trigger
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="trBattleVeteran"
+        active="0">
+        <event timeout="0" eventid="GE_TIME_PERIOD"/>
+
+        <script>
+            GetPlayerVehicle():SetPosition(CVector(7122.449, 171.645, 3736.613))
+            GetPlayerVehicle():SetRotation(Quaternion(-0.001, 0.998, 0.010, -0.068))
+            local veteranCars = {"kolizey_veteran_ural01","kolizey_veteran_ural02","kolizey_veteran_belaz01","kolizey_veteran_belaz02","kolizey_veteran_ural03","kolizey_veteran_cruiser02"}
+            local randVeteran = veteranCars[random(getn(veteranCars))]
+            SetVar("kolizey_veteran",1)
+            TeamCreate("GladiatorTeam",1002,CVector(7227.516, 186.947, 3578.640),{randVeteran},CVector(7092.917, 159.738, 3896.481))
+            local gl = GetEntityByName("GladiatorTeam_vehicle_0")
+            if gl then
+                gl:setImmortalMode(1)
+            end 
+            local var = GetVar("kolizey_veteran").AsInt
+            println(var)
+            TActivate("trGladiatorDie")
+            trigger:Deactivate()
+        </script>
+    </trigger>
+
+    <trigger
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="trVeteranTimer"
+        active="0">
+        <event timeout="800" eventid="GE_TIME_PERIOD"/>
+
+        <script>
+            SetVar("kolizey_veteran",0)
+            trigger:Deactivate()
+        </script>
+    </trigger>
+
+    <trigger
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="trBattleChampion"
+        active="0">
+        <event timeout="0" eventid="GE_TIME_PERIOD"/>
+
+        <script>
+            GetPlayerVehicle():SetPosition(CVector(7122.449, 171.645, 3736.613))
+            GetPlayerVehicle():SetRotation(Quaternion(-0.001, 0.998, 0.010, -0.068))
+            local championCars = {"kolizey_champion_belaz01","kolizey_champion_mirotvorec01","kolizey_champion_dozer01","kolizey_champion_ural01","kolizey_champion_belaz02","kolizey_champion_cruiser01"}
+            local randChampion = championCars[random(getn(championCars))]
+            SetVar("kolizey_champion",1)
+            TeamCreate("GladiatorTeam",1002,CVector(7227.516, 186.947, 3578.640),{randChampion},CVector(7092.917, 159.738, 3896.481))
+            local gl = GetEntityByName("GladiatorTeam_vehicle_0")
+            if gl then
+                gl:setImmortalMode(1)
+            end 
+            local var = GetVar("kolizey_champion").AsInt
+            println(var)
+            TActivate("trGladiatorDie")
+            trigger:Deactivate()
+        </script>
+    </trigger>
+
+    <trigger
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="trChampionTimer"
+        active="0">
+        <event timeout="1200" eventid="GE_TIME_PERIOD"/>
+
+        <script>
+            SetVar("kolizey_champion",0)
+            trigger:Deactivate()
+        </script>
+    </trigger>
+
+    <trigger
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="trGladiatorDie"
+        active="0">
+        <event eventid="GE_VEHICLE_WITHOUT_HEALTH" ObjName="GladiatorTeam_vehicle_0"/>
+
+        <script>
+            CinemaFiltersUse()
+
+            SaveAllToleranceStatus(RS_NEUTRAL)
+
+            local Plf = GetPlayerVehicle()
+            local PlfID = GetPlayerVehicleId()
+            local PlfCoor = Plf:GetPosition()
+            PlfCoor.y = PlfCoor.y + 25*0.74
+            PlfCoor.z = PlfCoor.z + 25*0.74
+
+            Plf:SetCustomControlEnabled( true )
+            Plf:SetCustomLinearVelocity( 0 )
+            Plf:SetThrottle( 0 )
+            Plf:SetCustomControlEnabled( false )
+
+            FlyAround(2, 0.01, 25, 6, PlfCoor, PlfID, 1, 1 )
+            StartCinematic()
+
+            AddCinematicMessage( 224, 1 )
+
+            TActivate( "trGladiatorDieEnd" )
+
+            local r = GetEntityByName ("ZABOR")
+            if r then r:Remove() end
+
+            trigger:Deactivate()
+        </script>
+    </trigger>
+
+    <trigger
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="trGladiatorDieEnd"
+        active="0">
+        <event eventid="GE_SKIP_CINEMATIC" ObjName="Player1"/>
+
+        <event eventid="GE_END_CINEMATIC" ObjName="Player1"/>
+
+        <script>
+            GameFiltersUse()
+
+            RestoreAllToleranceStatus()
+
+            local pl = GetPlayerVehicle()
+            pl:SetPosition(CVector(6706.464, 100, 4055.107))
+
+            SetCameraBehindPlayerVehicle()
+
+            local gl = GetEntityByName("GladiatorTeam_vehicle_0")
+            gl:Remove()
+            if gl:GetProperty("Prototype").AsString == "kolizey_rookie_scout01" or gl:GetProperty("Prototype").AsString == "kolizey_rookie_fighter01" or
+            gl:GetProperty("Prototype").AsString == "kolizey_rookie_fighter02" or gl:GetProperty("Prototype").AsString == "kolizey_rookie_hunter02" or
+            gl:GetProperty("Prototype").AsString == "kolizey_rookie_bug01" or gl:GetProperty("Prototype").AsString == "kolizey_rookie_bug02" then
+                AddPlayerMoney(1900)
+                TActivate("trRookieTimer")
+            elseif gl:GetProperty("Prototype").AsString == "kolizey_experienced_hunter01" or gl:GetProperty("Prototype").AsString == "kolizey_experienced_molokovoz01" or 
+            gl:GetProperty("Prototype").AsString == "kolizey_experienced_ural01" or gl:GetProperty("Prototype").AsString == "kolizey_experienced_fighter01" or 
+            gl:GetProperty("Prototype").AsString == "kolizey_experienced_molokovoz02" then  
+                AddPlayerMoney(9000)
+                TActivate("trExperiencedTimer")
+            elseif gl:GetProperty("Prototype").AsString == "kolizey_veteran_ural01" or gl:GetProperty("Prototype").AsString == "kolizey_veteran_ural02" or
+            gl:GetProperty("Prototype").AsString == "kolizey_veteran_belaz01" or gl:GetProperty("Prototype").AsString == "kolizey_veteran_belaz02" or
+            gl:GetProperty("Prototype").AsString == "kolizey_veteran_ural03" or gl:GetProperty("Prototype").AsString == "kolizey_veteran_cruiser02" then
+                AddPlayerMoney(90000)
+                TActivate("trVeteranTimer")
+            elseif gl:GetProperty("Prototype").AsString == "kolizey_champion_belaz01" or gl:GetProperty("Prototype").AsString == "kolizey_champion_mirotvorec01" or
+            gl:GetProperty("Prototype").AsString == "kolizey_champion_dozer01" or gl:GetProperty("Prototype").AsString == "kolizey_champion_ural01" or
+            gl:GetProperty("Prototype").AsString == "kolizey_champion_belaz02" or gl:GetProperty("Prototype").AsString == "kolizey_champion_cruiser01" then
+                AddPlayerMoney(250000)
+                TActivate("trChampionTimer")
+            end 
+            trigger:Deactivate() 
+        </script>
+    </trigger>
+</triggers>

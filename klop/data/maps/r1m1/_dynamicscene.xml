@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<DynamicScene>
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheGloohoe']/Object[@Name='TheGloohoe_Workshop']/Vehicles"
+        _SelectorKeys="Prototype"
+        Prototype="Sml1ForSale">
+        <Parts/>
+
+        <Repository/>
+    </Item>
+</DynamicScene>

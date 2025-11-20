@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<Prototypes>
+    <Prototype
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="extra_durability"
+        Class="Gadget"
+        ResourceType="GADGET_COMMON"
+        Price="88520"
+        Modifications="CABIN MaxDurability 30; BASKET MaxDurability 30"
+        ModelFile="gadget_05"
+        SkinNum="0"/>
+
+    <Prototype
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="extra_speed_and_torque"
+        Class="Gadget"
+        ResourceType="GADGET_COMMON"
+        Price="135000"
+        Modifications="CABIN MaxSpeed 20; CABIN MaxTorque 25"
+        ModelFile="gadget_07"
+        SkinNum="2"/>
+
+    <Prototype
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="extra_fuel_tank"
+        Class="Gadget"
+        ResourceType="GADGET_COMMON"
+        Price="63200"
+        Modifications="CHASSIS MaxFuel 200"
+        ModelFile="gadget_06"
+        SkinNum="2"/>
+
+    <Prototype
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="extra_hp"
+        Class="Gadget"
+        ResourceType="GADGET_COMMON"
+        Price="82300"
+        Modifications="CHASSIS MaxHealth += 400"
+        ModelFile="gadget_08"
+        SkinNum="0"/>
+
+    <Prototype
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="extra_hp2"
+        Class="Gadget"
+        ResourceType="GADGET_COMMON"
+        Price="138000"
+        Modifications="CHASSIS MaxHealth += 750"
+        ModelFile="gadget_08"
+        SkinNum="0"/>
+
+    <Prototype
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="extra_damage_machinegun"
+        Class="Gadget"
+        ResourceType="GADGET_WEAPON"
+        Price="138300"
+        Modifications="MachineGun Damage 60"
+        ModelFile="gadget_09"
+        SkinNum="1"/>
+
+    <Prototype
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="extra_damage_cannon"
+        Class="Gadget"
+        ResourceType="GADGET_WEAPON"
+        Price="165300"
+        Modifications="Cannon Damage 60"
+        ModelFile="gadget_09"
+        SkinNum="1"/>
+
+    <Prototype
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="extra_damage_shotgun"
+        Class="Gadget"
+        ResourceType="GADGET_WEAPON"
+        Price="172000"
+        Modifications="ShotGun Damage 60"
+        ModelFile="gadget_09"
+        SkinNum="1"/>
+
+    <Prototype
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="extra_damage_laser"
+        Class="Gadget"
+        ResourceType="GADGET_WEAPON"
+        Price="172000"
+        Modifications="Laser Damage 60"
+        ModelFile="gadget_09"
+        SkinNum="1"/>
+
+    <Prototype
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="extra_damage_plasma"
+        Class="Gadget"
+        ResourceType="GADGET_WEAPON"
+        Price="157000"
+        Modifications="Plasma Damage 60"
+        ModelFile="gadget_09"
+        SkinNum="1"/>
+
+    <Prototype
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="extra_damage_rocket"
+        Class="Gadget"
+        ResourceType="GADGET_WEAPON"
+        Price="122000"
+        Modifications="Rocket Damage 100"
+        ModelFile="gadget_09"
+        SkinNum="1"/>
+
+    <Prototype
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="extra_damage_artillery"
+        Class="Gadget"
+        ResourceType="GADGET_WEAPON"
+        Price="135000"
+        Modifications="Artillery Damage 80"
+        ModelFile="gadget_09"
+        SkinNum="1"/>
+
+    <Prototype
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="extra_combo_machinegun"
+        Class="Gadget"
+        ResourceType="GADGET_WEAPON"
+        Price="112350"
+        Modifications="MachineGun Damage 25; MachineGun Accuracy += 25; MachineGun ReChargingTime -25; MachineGun FiringRate 25; MachineGun FiringRange 25"
+        ModelFile="gadget_11"
+        SkinNum="2"/>
+
+    <Prototype
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="extra_combo_cannon"
+        Class="Gadget"
+        ResourceType="GADGET_WEAPON"
+        Price="128700"
+        Modifications="Cannon Damage 25; Cannon Accuracy += 25; Cannon ReChargingTime -25; Cannon FiringRate 25; Cannon FiringRange 25"
+        ModelFile="gadget_11"
+        SkinNum="2"/>
+
+    <Prototype
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="extra_combo_shotgun"
+        Class="Gadget"
+        ResourceType="GADGET_WEAPON"
+        Price="124200"
+        Modifications="ShotGun Damage 25; ShotGun Accuracy += 25; ShotGun ReChargingTime -25; ShotGun FiringRate 25; ShotGun FiringRange 25"
+        ModelFile="gadget_11"
+        SkinNum="2"/>
+
+    <Prototype
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="extra_combo_laser"
+        Class="Gadget"
+        ResourceType="GADGET_WEAPON"
+        Price="118600"
+        Modifications="Laser Damage 25; Laser Accuracy += 25; Laser ReChargingTime -25; Laser FiringRate 25; Laser FiringRange 25"
+        ModelFile="gadget_11"
+        SkinNum="2"/>
+
+    <Prototype
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="extra_combo_plasma"
+        Class="Gadget"
+        ResourceType="GADGET_WEAPON"
+        Price="110250"
+        Modifications="Plasma Damage 25; Plasma Accuracy += 25; Plasma ReChargingTime -25; Plasma FiringRate 25; Plasma FiringRange 25"
+        ModelFile="gadget_11"
+        SkinNum="2"/>
+
+    <Prototype
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="extra_combo_rocket"
+        Class="Gadget"
+        ResourceType="GADGET_WEAPON"
+        Price="92090"
+        Modifications="Rocket Damage 25; Rocket Accuracy += 25; Rocket ReChargingTime -25; Rocket FiringRate 25; Rocket FiringRange 25"
+        ModelFile="gadget_11"
+        SkinNum="2"/>
+
+    <Prototype
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="extra_combo_artillery"
+        Class="Gadget"
+        ResourceType="GADGET_WEAPON"
+        Price="101850"
+        Modifications="Artillery Damage 25; Artillery Accuracy += 25; Artillery ReChargingTime -25; Artillery FiringRate 25; Artillery FiringRange 25"
+        ModelFile="gadget_11"
+        SkinNum="2"/>
+</Prototypes>

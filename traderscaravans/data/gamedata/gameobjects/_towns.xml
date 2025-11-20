@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<Prototypes>
+    <Prototype
+        _Action="Add"
+        _ParentXPath="Folder[@Name='BigTowns']"
+        _SelectorKeys="Name"
+        Name="r1m1_CaravanTownGenerator"
+        Class="RepositoryObjectsGenerator">
+        <Object
+            PrototypeName="pkt01"/>
+
+        <Object
+            PrototypeName="storm01"/>
+
+        <Object
+            PrototypeName="pkt01"/>
+
+        <Object
+            PrototypeName="vector01"/>
+
+        <Object
+            PrototypeName="vulcan01"/>
+
+        <Object
+            PrototypeName="kord01"/>
+
+        <Object
+            PrototypeName="maxim01"/>
+
+        <Object
+            PrototypeName="someTurboAccelerationPusher"/>
+
+        <Object
+            PrototypeName="cooling_system_guns"/>
+
+        <Object
+            PrototypeName="cooling_system_energy"/>
+
+        <Object
+            PrototypeName="additional_torque"/>
+
+        <Object
+            PrototypeName="additional_durability"/>
+    </Prototype>
+
+    <Prototype
+        _Action="Add"
+        _ParentXPath="Folder[@Name='BigTowns']"
+        _SelectorKeys="Name"
+        Name="r1m2_CaravanTownGenerator"
+        Class="RepositoryObjectsGenerator">
+        <Object
+            PrototypeName="pkt01"/>
+
+        <Object
+            PrototypeName="rapier01"/>
+
+        <Object
+            PrototypeName="fagot01"/>
+
+        <Object
+            PrototypeName="vector01"/>
+
+        <Object
+            PrototypeName="vulcan01"/>
+
+        <Object
+            PrototypeName="kord01"/>
+
+        <Object
+            PrototypeName="maxim01"/>
+
+        <Object
+            PrototypeName="flag01"/>
+
+        <Object
+            PrototypeName="cooling_system_guns"/>
+
+        <Object
+            PrototypeName="cooling_system_energy"/>
+
+        <Object
+            PrototypeName="elephant01"/>
+
+        <Object
+            PrototypeName="additional_durability"/>
+
+        <Object
+            PrototypeName="additional_stability"/>
+
+        <Object
+            PrototypeName="additional_fuel_tank2"/>
+
+        <Object
+            PrototypeName="add_speed_and_torque"/>
+
+        <Object
+            PrototypeName="bumblebee01"/>
+
+        <Object
+            PrototypeName="cyclops01"/>
+
+        <Object
+            PrototypeName="marsSideGun"/>
+    </Prototype>
+
+    <Prototype
+        _Action="Add"
+        _ParentXPath="Folder[@Name='BigTowns']"
+        _SelectorKeys="Name"
+        Name="r1m4_CaravanTownGenerator"
+        Class="RepositoryObjectsGenerator">
+        <Object
+            PrototypeName="rapier01"/>
+
+        <Object
+            PrototypeName="kord01"/>
+
+        <Object
+            PrototypeName="maxim01"/>
+
+        <Object
+            PrototypeName="flag01"/>
+
+        <Object
+            PrototypeName="add_speed_and_torque"/>
+
+        <Object
+            PrototypeName="cooling_system_energy"/>
+
+        <Object
+            PrototypeName="elephant01"/>
+
+        <Object
+            PrototypeName="firing_rate_guns2"/>
+
+        <Object
+            PrototypeName="add_damage_energy2"/>
+
+        <Object
+            PrototypeName="add_stability_and_speed"/>
+
+        <Object
+            PrototypeName="add_speed_and_torque"/>
+
+        <Object
+            PrototypeName="add_damage_explosion2"/>
+
+        <Object
+            PrototypeName="octopus01"/>
+
+        <Object
+            PrototypeName="hunterSideGun"/>
+
+        <Object
+            PrototypeName="mrakSideGun"/>
+    </Prototype>
+
+    <Prototype
+        _Action="Add"
+        _ParentXPath="Folder[@Name='BigTowns']"
+        _SelectorKeys="Name"
+        Name="r2m1_CaravanTownGenerator"
+        Class="RepositoryObjectsGenerator">
+        <Object
+            PrototypeName="omega01"/>
+
+        <Object
+            PrototypeName="odin01"/>
+
+        <Object
+            PrototypeName="vulcan01"/>
+
+        <Object
+            PrototypeName="kord01"/>
+
+        <Object
+            PrototypeName="hammer01"/>
+
+        <Object
+            PrototypeName="flag01"/>
+
+        <Object
+            PrototypeName="additional_fuel_tank2_add_damage_guns"/>
+
+        <Object
+            PrototypeName="cooling_system_energy"/>
+
+        <Object
+            PrototypeName="cooling_system_guns_and_firing_rate_guns"/>
+
+        <Object
+            PrototypeName="firing_rate_guns2"/>
+
+        <Object
+            PrototypeName="add_damage_energy2"/>
+
+        <Object
+            PrototypeName="add_stability_and_speed"/>
+
+        <Object
+            PrototypeName="add_speed_and_torque"/>
+
+        <Object
+            PrototypeName="firing_rate_energy_and_add_damage_energy"/>
+
+        <Object
+            PrototypeName="octopus01"/>
+
+        <Object
+            PrototypeName="zeusSideGun"/>
+
+        <Object
+            PrototypeName="add_damage_energy_and_firing_rate_energy"/>
+    </Prototype>
+
+    <Prototype
+        _Action="Add"
+        _ParentXPath="Folder[@Name='BigTowns']"
+        _SelectorKeys="Name"
+        Name="r3m1_CaravanTownGenerator"
+        Class="RepositoryObjectsGenerator">
+        <Object
+            PrototypeName="omega01"/>
+
+        <Object
+            PrototypeName="odin01"/>
+
+        <Object
+            PrototypeName="kpvt01"/>
+
+        <Object
+            PrototypeName="hailSideGun"/>
+
+        <Object
+            PrototypeName="vector01"/>
+
+        <Object
+            PrototypeName="maxim01"/>
+
+        <Object
+            PrototypeName="additional_fuel_tank2_add_damage_guns"/>
+
+        <Object
+            PrototypeName="add_damage_guns_and_grouping_angle_guns"/>
+
+        <Object
+            PrototypeName="firing_rate_guns_and_add_damage_guns"/>
+
+        <Object
+            PrototypeName="firing_rate_guns2"/>
+
+        <Object
+            PrototypeName="add_damage_energy2"/>
+
+        <Object
+            PrototypeName="add_stability_and_speed"/>
+
+        <Object
+            PrototypeName="add_damage_explosion_firing_rate_explosion"/>
+
+        <Object
+            PrototypeName="firing_rate_energy_and_add_damage_energy"/>
+
+        <Object
+            PrototypeName="octopus01"/>
+
+        <Object
+            PrototypeName="cyclops01"/>
+
+        <Object
+            PrototypeName="marsSideGun"/>
+
+        <Object
+            PrototypeName="add_damage_energy_and_firing_rate_energy"/>
+    </Prototype>
+
+    <Prototype
+        _Action="Add"
+        _ParentXPath="Folder[@Name='BigTowns']"
+        _SelectorKeys="Name"
+        Name="r4m1_CaravanTownGenerator"
+        Class="RepositoryObjectsGenerator">
+        <Object
+            PrototypeName="omega01"/>
+
+        <Object
+            PrototypeName="odin01"/>
+
+        <Object
+            PrototypeName="kpvt01"/>
+
+        <Object
+            PrototypeName="hailSideGun"/>
+
+        <Object
+            PrototypeName="omega01"/>
+
+        <Object
+            PrototypeName="maxim01"/>
+
+        <Object
+            PrototypeName="additional_fuel_tank2_add_damage_guns"/>
+
+        <Object
+            PrototypeName="add_damage_guns_and_grouping_angle_guns"/>
+
+        <Object
+            PrototypeName="firing_rate_guns_and_add_damage_guns"/>
+
+        <Object
+            PrototypeName="add_damage_guns2"/>
+
+        <Object
+            PrototypeName="add_damage_energy2"/>
+
+        <Object
+            PrototypeName="add_stability_and_speed"/>
+
+        <Object
+            PrototypeName="cooling_system_guns_and_firing_rate_guns"/>
+
+        <Object
+            PrototypeName="firing_rate_energy_and_add_damage_energy"/>
+
+        <Object
+            PrototypeName="octopus01"/>
+
+        <Object
+            PrototypeName="hammer01"/>
+
+        <Object
+            PrototypeName="mrakSideGun"/>
+
+        <Object
+            PrototypeName="add_damage_energy_and_firing_rate_energy"/>
+
+        <Object
+            PrototypeName="someTurboAccelerationPusher"/>
+    </Prototype>
+
+    <Prototype
+        _Action="Add"
+        _ParentXPath="Folder[@Name='Villages']"
+        _SelectorKeys="Name"
+        Name="r1m1_CaravanTown"
+        Class="Town"
+        ModelFile=""
+        NodeScale="1 1 1"
+        GateModelFile=""
+        GunGenerator="r1m1_CaravanTownGenerator"
+        DesiredGunsInWorkshop="15"
+        GunAffixGenerator="townaffixGenerator"
+        GunAffixesCount="2"
+        WeaponPriceMultiplier="3"
+        WeaponPriceDispersion="25"
+        MaxDefenders="0"
+        IsIntersecting="true"
+        LookRadius="200"
+        IntersectionRadius="25"
+        Vehicles="">
+        <Article
+            Prototype="potato"
+            Amount="2"
+            ExternalPriceCoefficient="0.9"
+            Import="FALSE"
+            Export="TRUE"
+            PriceDynamic="1"
+            MinCount="0"
+            MaxCount="14"
+            RegenerationPeriod="200"/>
+
+        <Article
+            Prototype="firewood"
+            Amount="0"
+            ExternalPriceCoefficient="1.1"
+            PriceDynamic="1"
+            Import="TRUE"
+            Export="FALSE"
+            MinCount="0"
+            MaxCount="14"
+            RegenerationPeriod="200"/>
+
+        <ResourceCoeff
+            Coeff="1.2"
+            Dispersion="10.0"
+            Resource="GUN"/>
+
+        <ResourceCoeff
+            Coeff="1.1"
+            Dispersion="15.0"
+            Resource="GADGET"/>
+    </Prototype>
+
+    <Prototype
+        _Action="Add"
+        _ParentXPath="Folder[@Name='Villages']"
+        _SelectorKeys="Name"
+        Name="r1m2_CaravanTown"
+        Class="Town"
+        ModelFile=""
+        NodeScale="1 1 1"
+        GateModelFile=""
+        GunGenerator="r1m2_CaravanTownGenerator"
+        DesiredGunsInWorkshop="21"
+        GunAffixGenerator="townaffixGenerator"
+        GunAffixesCount="2"
+        WeaponPriceMultiplier="3"
+        WeaponPriceDispersion="25"
+        MaxDefenders="0"
+        IsIntersecting="true"
+        LookRadius="200"
+        IntersectionRadius="25"
+        Vehicles="">
+        <Article
+            Prototype="potato"
+            Amount="0"
+            ExternalPriceCoefficient="1.4"
+            Import="FALSE"
+            Export="TRUE"
+            PriceDynamic="1"
+            MinCount="0"
+            MaxCount="60"
+            RegenerationPeriod="300"/>
+
+        <Article
+            Prototype="scrap_metal"
+            Amount="3"
+            ExternalPriceCoefficient="1.3"
+            PriceDynamic="1"
+            Export="TRUE"
+            Import="FALSE"
+            MinCount="0"
+            MaxCount="60"
+            RegenerationPeriod="300"/>
+
+        <Article
+            Prototype="firewood"
+            Amount="12"
+            ExternalPriceCoefficient="0.62"
+            PriceDynamic="1"
+            Export="TRUE"
+            Import="FALSE"
+            MinCount="0"
+            MaxCount="24"
+            RegenerationPeriod="300"/>
+
+        <ResourceCoeff
+            Coeff="1.2"
+            Dispersion="10.0"
+            Resource="GUN"/>
+
+        <ResourceCoeff
+            Coeff="1.1"
+            Dispersion="15.0"
+            Resource="GADGET"/>
+    </Prototype>
+
+    <Prototype
+        _Action="Add"
+        _ParentXPath="Folder[@Name='Villages']"
+        _SelectorKeys="Name"
+        Name="r1m3_CaravanTown"
+        Class="Town"
+        ModelFile=""
+        NodeScale="1 1 1"
+        GateModelFile=""
+        GunGenerator="r1m2_CaravanTownGenerator"
+        DesiredGunsInWorkshop="21"
+        GunAffixGenerator="townaffixGenerator"
+        GunAffixesCount="2"
+        WeaponPriceMultiplier="3"
+        WeaponPriceDispersion="25"
+        MaxDefenders="0"
+        IsIntersecting="true"
+        LookRadius="200"
+        IntersectionRadius="25"
+        Vehicles="">
+        <Article
+            Prototype="potato"
+            Amount="0"
+            ExternalPriceCoefficient="1.4"
+            Import="FALSE"
+            Export="TRUE"
+            PriceDynamic="1"
+            MinCount="0"
+            MaxCount="60"
+            RegenerationPeriod="300"/>
+
+        <Article
+            Prototype="scrap_metal"
+            Amount="3"
+            ExternalPriceCoefficient="1.3"
+            PriceDynamic="1"
+            Export="TRUE"
+            Import="FALSE"
+            MinCount="0"
+            MaxCount="60"
+            RegenerationPeriod="300"/>
+
+        <Article
+            Prototype="firewood"
+            Amount="12"
+            ExternalPriceCoefficient="0.62"
+            PriceDynamic="1"
+            Export="TRUE"
+            Import="FALSE"
+            MinCount="0"
+            MaxCount="24"
+            RegenerationPeriod="300"/>
+
+        <ResourceCoeff
+            Coeff="1.2"
+            Dispersion="10.0"
+            Resource="GUN"/>
+
+        <ResourceCoeff
+            Coeff="1.1"
+            Dispersion="15.0"
+            Resource="GADGET"/>
+    </Prototype>
+
+    <Prototype
+        _Action="Add"
+        _ParentXPath="Folder[@Name='Villages']"
+        _SelectorKeys="Name"
+        Name="r1m4_CaravanTown"
+        Class="Town"
+        ModelFile=""
+        NodeScale="1 1 1"
+        GateModelFile=""
+        GunGenerator="r1m4_CaravanTownGenerator"
+        DesiredGunsInWorkshop="21"
+        GunAffixGenerator="townaffixGenerator"
+        GunAffixesCount="2"
+        WeaponPriceMultiplier="3"
+        WeaponPriceDispersion="25"
+        MaxDefenders="0"
+        IsIntersecting="true"
+        LookRadius="200"
+        IntersectionRadius="25"
+        Vehicles="">
+        <Article
+            Prototype="oil"
+            Amount="12"
+            ExternalPriceCoefficient="0.7"
+            PriceDynamic="1"
+            Export="TRUE"
+            Import="FALSE"
+            MinCount="0"
+            MaxCount="90"
+            RegenerationPeriod="300"/>
+
+        <Article
+            Prototype="scrap_metal"
+            Amount="0"
+            ExternalPriceCoefficient="1.33"
+            PriceDynamic="1"
+            Export="FALSE"
+            Import="TRUE"
+            MinCount="0"
+            MaxCount="140"
+            RegenerationPeriod="300"/>
+
+        <ResourceCoeff
+            Coeff="1.3"
+            Dispersion="10.0"
+            Resource="GUN"/>
+
+        <ResourceCoeff
+            Coeff="1.2"
+            Dispersion="15.0"
+            Resource="GADGET"/>
+    </Prototype>
+
+    <Prototype
+        _Action="Add"
+        _ParentXPath="Folder[@Name='Villages']"
+        _SelectorKeys="Name"
+        Name="r2m1_CaravanTown"
+        Class="Town"
+        ModelFile=""
+        NodeScale="1 1 1"
+        GateModelFile=""
+        GunGenerator="r2m1_CaravanTownGenerator"
+        DesiredGunsInWorkshop="21"
+        GunAffixGenerator="townaffixGenerator"
+        GunAffixesCount="2"
+        WeaponPriceMultiplier="3"
+        WeaponPriceDispersion="25"
+        MaxDefenders="0"
+        IsIntersecting="true"
+        LookRadius="200"
+        IntersectionRadius="25"
+        Vehicles="">
+        <Article
+            Prototype="scrap_metal"
+            Amount="24"
+            ExternalPriceCoefficient="0.85"
+            PriceDynamic="1"
+            Export="FALSE"
+            Import="TRUE"
+            MinCount="0"
+            MaxCount="44"
+            RegenerationPeriod="300"/>
+
+        <Article
+            Prototype="fuel"
+            Amount="0"
+            ExternalPriceCoefficient="1.1"
+            PriceDynamic="1"
+            Export="FALSE"
+            Import="TRUE"
+            MinCount="0"
+            MaxCount="140"
+            RegenerationPeriod="300"/>
+
+        <ResourceCoeff
+            Coeff="1.3"
+            Dispersion="10.0"
+            Resource="GUN"/>
+
+        <ResourceCoeff
+            Coeff="1.2"
+            Dispersion="15.0"
+            Resource="GADGET"/>
+    </Prototype>
+
+    <Prototype
+        _Action="Add"
+        _ParentXPath="Folder[@Name='Villages']"
+        _SelectorKeys="Name"
+        Name="r2m2_CaravanTown"
+        Class="Town"
+        ModelFile=""
+        NodeScale="1 1 1"
+        GateModelFile=""
+        GunGenerator="r2m1_CaravanTownGenerator"
+        DesiredGunsInWorkshop="25"
+        GunAffixGenerator="townaffixGenerator"
+        GunAffixesCount="3"
+        WeaponPriceMultiplier="3"
+        WeaponPriceDispersion="25"
+        MaxDefenders="0"
+        IsIntersecting="true"
+        LookRadius="200"
+        IntersectionRadius="25"
+        Vehicles="">
+        <Article
+            Prototype="scrap_metal"
+            Amount="24"
+            ExternalPriceCoefficient="0.85"
+            PriceDynamic="1"
+            Export="FALSE"
+            Import="TRUE"
+            MinCount="0"
+            MaxCount="44"
+            RegenerationPeriod="300"/>
+
+        <Article
+            Prototype="fuel"
+            Amount="0"
+            ExternalPriceCoefficient="1.1"
+            PriceDynamic="1"
+            Export="FALSE"
+            Import="TRUE"
+            MinCount="0"
+            MaxCount="140"
+            RegenerationPeriod="300"/>
+
+        <ResourceCoeff
+            Coeff="1.3"
+            Dispersion="10.0"
+            Resource="GUN"/>
+
+        <ResourceCoeff
+            Coeff="1.2"
+            Dispersion="15.0"
+            Resource="GADGET"/>
+    </Prototype>
+
+    <Prototype
+        _Action="Add"
+        _ParentXPath="Folder[@Name='Villages']"
+        _SelectorKeys="Name"
+        Name="r3m1_CaravanTown"
+        Class="Town"
+        ModelFile=""
+        NodeScale="1 1 1"
+        GateModelFile=""
+        GunGenerator="r3m1_CaravanTownGenerator"
+        DesiredGunsInWorkshop="15"
+        GunAffixGenerator="townaffixGenerator"
+        GunAffixesCount="3"
+        WeaponPriceMultiplier="3"
+        WeaponPriceDispersion="25"
+        MaxDefenders="0"
+        IsIntersecting="true"
+        LookRadius="200"
+        IntersectionRadius="25"
+        Vehicles="">
+        <Article
+            Prototype="machinery"
+            Amount="30"
+            ExternalPriceCoefficient="0.9"
+            PriceDynamic="1"
+            Export="TRUE"
+            Import="FALSE"
+            MinCount="0"
+            MaxCount="51"
+            RegenerationPeriod="300"/>
+
+        <Article
+            Prototype="bottle"
+            Amount="0"
+            ExternalPriceCoefficient="1.1"
+            PriceDynamic="1"
+            Export="FALSE"
+            Import="TRUE"
+            MinCount="0"
+            MaxCount="140"
+            RegenerationPeriod="300"/>
+
+        <ResourceCoeff
+            Coeff="1.3"
+            Dispersion="10.0"
+            Resource="GUN"/>
+
+        <ResourceCoeff
+            Coeff="1.2"
+            Dispersion="15.0"
+            Resource="GADGET"/>
+    </Prototype>
+
+    <Prototype
+        _Action="Add"
+        _ParentXPath="Folder[@Name='Villages']"
+        _SelectorKeys="Name"
+        Name="r4m1_CaravanTown"
+        Class="Town"
+        ModelFile=""
+        NodeScale="1 1 1"
+        GateModelFile=""
+        GunGenerator="r4m1_CaravanTownGenerator"
+        DesiredGunsInWorkshop="23"
+        GunAffixGenerator="townaffixGenerator"
+        GunAffixesCount="4"
+        WeaponPriceMultiplier="3"
+        WeaponPriceDispersion="25"
+        MaxDefenders="0"
+        IsIntersecting="true"
+        LookRadius="200"
+        IntersectionRadius="25"
+        Vehicles="">
+        <Article
+            Prototype="book"
+            Amount="0"
+            ExternalPriceCoefficient="1.07"
+            PriceDynamic="1"
+            Export="FALSE"
+            Import="TRUE"
+            MinCount="0"
+            MaxCount="140"
+            RegenerationPeriod="300"/>
+
+        <Article
+            Prototype="electronics"
+            Amount="12"
+            ExternalPriceCoefficient="0.91"
+            PriceDynamic="1"
+            Export="TRUE"
+            Import="FALSE"
+            MinCount="0"
+            MaxCount="100"
+            RegenerationPeriod="300"/>
+
+        <ResourceCoeff
+            Coeff="1.3"
+            Dispersion="10.0"
+            Resource="GUN"/>
+
+        <ResourceCoeff
+            Coeff="1.2"
+            Dispersion="15.0"
+            Resource="GADGET"/>
+    </Prototype>
+</Prototypes>
