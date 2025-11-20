@@ -1,0 +1,4 @@
+- commands: options\fastaim\data\gamedata\_globalproperties.xml
+  targets: gamedata\globalproperties.xml
+
+

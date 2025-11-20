@@ -1,0 +1,6 @@
+- commands: options\difficultylevels\data\gamedata\_globalproperties.xml
+  targets: gamedata\globalproperties.xml
+
+- commands: options\difficultylevels\data\if\strings\_uieditstrings.xml
+  targets: if\strings\uieditstrings.xml
+

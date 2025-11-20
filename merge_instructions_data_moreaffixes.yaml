@@ -1,0 +1,13 @@
+- commands: options\moreaffixes\data\gamedata\_affixes.xml
+  targets: gamedata\affixes.xml
+
+- commands: options\moreaffixes\data\gamedata\gameobjects\_towns.xml
+  targets: gamedata\gameobjects\towns.xml
+
+- commands: options\moreaffixes\data\if\strings\_affixesdiz.xml
+  targets: if\strings\affixesdiz.xml
+
+- commands: options\moreaffixes\data\if\ico_hd\_modelicons.xml
+  targets: if\ico_hd\modelicons.xml
+
+      

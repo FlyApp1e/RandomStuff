@@ -1,0 +1,40 @@
+- commands: options\extracabsandbaskets\data\gamedata\gameobjects\_gameobjects.xml
+  targets: gamedata\gameobjects\gameobjects.xml
+
+- commands: options\extracabsandbaskets\data\if\diz\_model_names.xml
+  targets: if\diz\model_names.xml
+
+- commands: options\extracabsandbaskets\data\if\ico_hd\_modelicons.xml
+  targets: if\ico_hd\modelicons.xml
+
+- commands: options\extracabsandbaskets\data\if\strings\_uidescription.xml
+  targets: if\strings\uidescription.xml
+
+- commands: options\extracabsandbaskets\data\maps\r1m1\_dynamicscene.xml
+  targets: maps\r1m1\dynamicscene.xml  
+
+- commands: options\extracabsandbaskets\data\maps\r1m2\_dynamicscene.xml
+  targets: maps\r1m2\dynamicscene.xml
+
+- commands: options\extracabsandbaskets\data\maps\r1m3\_dynamicscene.xml
+  targets: maps\r1m3\dynamicscene.xml  
+
+- commands: options\extracabsandbaskets\data\maps\r1m4\_dynamicscene.xml
+  targets: maps\r1m4\dynamicscene.xml    
+
+- commands: options\extracabsandbaskets\data\maps\r2m1\_dynamicscene.xml
+  targets: maps\r2m1\dynamicscene.xml   
+
+- commands: options\extracabsandbaskets\data\maps\r2m2\_dynamicscene.xml
+  targets: maps\r2m2\dynamicscene.xml    
+
+- commands: options\extracabsandbaskets\data\maps\r3m1\_dynamicscene.xml
+  targets: maps\r3m1\dynamicscene.xml     
+
+- commands: options\extracabsandbaskets\data\maps\r4m1\_dynamicscene.xml
+  targets: maps\r4m1\dynamicscene.xml  
+
+
+
+
+      

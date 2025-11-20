@@ -1,0 +1,87 @@
+- commands: options\traderscaravans\data\gamedata\gameobjects\_gameobjects.xml
+  targets: gamedata\gameobjects\gameobjects.xml
+
+- commands: options\traderscaravans\data\gamedata\gameobjects\_towns.xml
+  targets: gamedata\gameobjects\towns.xml  
+  
+- commands: options\traderscaravans\data\gamedata\_relationship.xml
+  targets: gamedata\relationship.xml
+
+- commands: options\traderscaravans\data\if\diz\_model_names.xml
+  targets: if\diz\model_names.xml
+
+- commands: options\traderscaravans\data\maps\r1m1\_triggers.xml
+  targets: maps\r1m1\triggers.xml
+
+- commands: options\traderscaravans\data\maps\r1m1\_dynamicscene.xml
+  targets: maps\r1m1\dynamicscene.xml 
+
+- commands: options\traderscaravans\data\maps\r1m1\_object_names.xml
+  targets: maps\r1m1\object_names.xml   
+
+- commands: options\traderscaravans\data\maps\r1m2\_triggers.xml
+  targets: maps\r1m2\triggers.xml
+
+- commands: options\traderscaravans\data\maps\r1m2\_dynamicscene.xml
+  targets: maps\r1m1\dynamicscene.xml 
+
+- commands: options\traderscaravans\data\maps\r1m2\_object_names.xml
+  targets: maps\r1m1\object_names.xml  
+
+- commands: options\traderscaravans\data\maps\r1m3\_triggers.xml
+  targets: maps\r1m3\triggers.xml  
+
+- commands: options\traderscaravans\data\maps\r1m3\_dynamicscene.xml
+  targets: maps\r1m1\dynamicscene.xml 
+
+- commands: options\traderscaravans\data\maps\r1m3\_object_names.xml
+  targets: maps\r1m1\object_names.xml  
+
+- commands: options\traderscaravans\data\maps\r1m4\_triggers.xml
+  targets: maps\r1m3\triggers.xml  
+
+- commands: options\traderscaravans\data\maps\r1m4\_dynamicscene.xml
+  targets: maps\r1m1\dynamicscene.xml 
+
+- commands: options\traderscaravans\data\maps\r1m4\_object_names.xml
+  targets: maps\r1m1\object_names.xml  
+
+- commands: options\traderscaravans\data\maps\r2m1\_triggers.xml
+  targets: maps\r2m1\triggers.xml   
+
+- commands: options\traderscaravans\data\maps\r2m1\_dynamicscene.xml
+  targets: maps\r1m1\dynamicscene.xml 
+
+- commands: options\traderscaravans\data\maps\r2m1\_object_names.xml
+  targets: maps\r1m1\object_names.xml   
+
+- commands: options\traderscaravans\data\maps\r2m2\_triggers.xml
+  targets: maps\r2m1\triggers.xml   
+
+- commands: options\traderscaravans\data\maps\r2m2\_dynamicscene.xml
+  targets: maps\r1m1\dynamicscene.xml 
+
+- commands: options\traderscaravans\data\maps\r2m2\_object_names.xml
+  targets: maps\r1m1\object_names.xml     
+
+- commands: options\traderscaravans\data\maps\r3m1\_triggers.xml
+  targets: maps\r3m1\triggers.xml  
+
+- commands: options\traderscaravans\data\maps\r3m1\_dynamicscene.xml
+  targets: maps\r1m1\dynamicscene.xml 
+
+- commands: options\traderscaravans\data\maps\r3m1\_object_names.xml
+  targets: maps\r1m1\object_names.xml    
+
+- commands: options\traderscaravans\data\maps\r4m1\_triggers.xml
+  targets: maps\r4m1\triggers.xml    
+
+- commands: options\traderscaravans\data\maps\r4m1\_dynamicscene.xml
+  targets: maps\r1m1\dynamicscene.xml 
+
+- commands: options\traderscaravans\data\maps\r4m1\_object_names.xml
+  targets: maps\r1m1\object_names.xml     
+
+
+
+      

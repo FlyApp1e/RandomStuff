@@ -1,0 +1,30 @@
+- commands: options\randomminibosses\data\gamedata\gameobjects\_gameobjects.xml
+  targets: gamedata\gameobjects\gameobjects.xml
+
+- commands: options\randomminibosses\data\if\diz\_model_names.xml
+  targets: if\diz\model_names.xml
+
+- commands: options\randomminibosses\data\maps\r1m1\_triggers.xml
+  targets: maps\r1m1\triggers.xml  
+
+- commands: options\randomminibosses\data\maps\r1m2\_triggers.xml
+  targets: maps\r1m2\triggers.xml
+
+- commands: options\randomminibosses\data\maps\r1m3\_triggers.xml
+  targets: maps\r1m3\triggers.xml  
+
+- commands: options\randomminibosses\data\maps\r2m1\_triggers.xml
+  targets: maps\r2m1\triggers.xml   
+
+- commands: options\randomminibosses\data\maps\r3m1\_triggers.xml
+  targets: maps\r3m1\triggers.xml  
+
+- commands: options\randomminibosses\data\maps\r3m2\_triggers.xml
+  targets: maps\r3m2\triggers.xml    
+
+- commands: options\randomminibosses\data\maps\r4m1\_triggers.xml
+  targets: maps\r4m1\triggers.xml    
+
+
+
+      

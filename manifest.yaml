@@ -1,0 +1,124 @@
+# техническая информация о моде
+name: RandomStuff # техническое имя мода (должно быть уникально для вашего мода, не должно быть похоже на существующие имена модов)
+language: ru # язык мода и его описания
+installment: exmachina # часть игры для которой предназначен мод
+# необходимая человекочитаемая информация
+display_name: Random Stuff
+version: "1.0" # простая версия в формате 1.0 или 1.0.0
+build: "251120" # 22 - год, 12 - месяц, 30 - день (дата выхода версии мода)
+description: |
+  Random Stuff - модификация добавляющая в игру различные мелкие изменения.
+  Список дополнений:
+  - Новые аффиксы
+  - Новые гаджеты
+  - Случайные мини-боссы
+  - Дополнительные кабины и кузова
+  - Сражения в Колизее
+  - Торговые караваны
+  - Дополнительные уровни сложности
+  - Быстрый захват цели ракетными установками
+  - Клоп в продаже в Глухом
+
+authors: FlyApple # автор или авторы мода
+ 
+# опциональная человекочитаемая информация 
+# link: https://deuswiki.com/w/SuperWeatherMod # домашняя страничка мода
+tags: [gameplay] 
+logo: RandomStuffModLogo.png
+# информация о процессе инсталляции
+patcher_version_requirement: ">=3.0" # мод требует для установки версию ComMod больше или равную 1.13
+
+prerequisites: 
+  - name: community_remaster
+    versions:
+      - ">=1.14"
+
+strict_requirements: false      
+
+data_dirs:
+  - "base"
+
+optional_content:
+  - name: moreaffixes
+    data_dirs:
+      - "options/moreaffixes"
+    merge_instructions: 
+      - "merge_instructions_data_moreaffixes.yaml"
+    display_name: Больше аффиксов
+    default_option: skip
+    description: |
+      Добавляет в игру новые аффиксы, как для оружия, так и для кабин с кузовами. Добавлены аффиксы для некоторых группировок, имеющие завышенные характиристики и высокую стоимость.
+  - name: extragadgets
+    data_dirs:
+      - "options/extragadgets"
+    merge_instructions: 
+      - "merge_instructions_data_extragadgets.yaml"
+    display_name: Больше гаджетов
+    default_option: skip
+    description: |
+      Добавляет в игру дополнительные гаджеты для авто и оружия.
+  - name: randomminibosses
+    data_dirs:
+      - "options/randomminibosses"
+    merge_instructions: 
+      - "merge_instructions_data_randomminibosses.yaml"
+    display_name: Случайные мини-боссы.
+    default_option: skip
+    description: |
+      Добавляет в игру минибоссов, появляющихся на большинстве карт и патрулирующих свои маршруты.    
+  - name: extracabsandbaskets
+    data_dirs:
+      - "options/extracabsandbaskets"
+    merge_instructions: 
+      - "merge_instructions_data_extracabsandbaskets.yaml"
+    display_name: Дополнительные кабины и кузова.
+    default_option: skip
+    description: |
+      Добавляет в игру несколько новых (на основе оригинальных моделей) кабин и кузовов для всех игровых машин.
+  - name: kolizey
+    data_dirs:
+      - "options/kolizey"
+    merge_instructions: 
+      - "merge_instructions_data_kolizey.yaml"
+    display_name: Сражения в Колизее.
+    default_option: skip
+    description: |
+      Сражения на арене Колизея с противниками разной сложности.  
+  - name: traderscaravans
+    data_dirs:
+      - "options/traderscaravans"
+    merge_instructions: 
+      - "merge_instructions_data_traderscaravans.yaml"
+    display_name: Торговые караваны.
+    default_option: skip
+    description: |
+      Торговые караваны, курсирующие по своим маршрутам, на большинстве игровых карт. 
+  - name: difficultylevels
+    data_dirs:
+      - "options/difficultylevels"
+    merge_instructions: 
+      - "merge_instructions_data_difficultylevels.yaml"
+    display_name: Дополнительные уровни сложности.
+    default_option: skip
+    description: |
+      Добавлено два новых уровня сложности, при которых у противников почти полностью отсутствует задержка перед стрельбой, а множители урона равны 1 и 1.5.            
+  - name: fastaim
+    data_dirs:
+      - "options/fastaim"
+    merge_instructions: 
+      - "merge_instructions_data_fastaim.yaml"
+    display_name: Быстрое наведение ракетных установок.
+    default_option: skip
+    description: |
+      Значительно увеличивает скорость захвата цели. Делает ракетные установки более полезными.
+  - name: klop
+    data_dirs:
+      - "options/klop"
+    merge_instructions: 
+      - "merge_instructions_data_klop.yaml"
+    display_name: Клоп в Глухое.
+    default_option: skip
+    description: |
+      Добавляет в продажу в Глухое вездеходный Клоп.     
+
+

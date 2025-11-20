@@ -1,0 +1,17 @@
+- commands: options\klop\data\gamedata\gameobjects\_vehicles.xml
+  targets: gamedata\gameobjects\vehicles.xml
+
+- commands: options\klop\data\gamedata\gameobjects\_vehicleparts.xml
+  targets: gamedata\gameobjects\vehicleparts.xml
+
+- commands: options\klop\data\if\ico_hd\_modelicons.xml
+  targets: if\ico_hd\modelicons.xml
+
+- commands: options\klop\data\if\diz\_model_names.xml
+  targets: if\diz\model_names.xml
+
+- commands: options\klop\data\maps\r1m1\_dynamicscene.xml
+  targets: maps\r1m1\dynamicscene.xml
+
+
+      
